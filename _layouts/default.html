@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
+    <title>{{ site.title }} - {{ page.title }}</title>
+</head>
+<body>
+
+<div class="site">
+  <div class="title">
+    <a href="/">{{ site.title }}</a>
+  </div>
+
+  {% include menu.html %}
+
+	<h1>{{ page.title }}</h1>
+	<div class="content">
+	  	{{ content }}
+	</div>
+
+	<div class="bottom_side">
+		©	{{ site.author.year }} {{ site.author.name }}
+	</div>
+
+</div>
+</body>
+</html>

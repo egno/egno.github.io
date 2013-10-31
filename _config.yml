@@ -1,0 +1,15 @@
+source: .
+destination: ./_site
+
+title: Александр Шелеметьев
+
+person:
+  name: Александр Викторович Шелеметьев
+  email: glaf@mail.ru
+  phone: +7 904 991-5035
+
+author:
+    year: 2013
+    name: Александр Шелеметьев
+
+

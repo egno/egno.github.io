@@ -1,0 +1,9 @@
+<div class="menu">
+	{% for page in site.pages %}
+		{% if page.menu == 'main' %}
+			<div class="menu_item">
+			<a href={{ page.url }}>{{ page.title }}</a>
+			</div>
+		{% endif %}
+    {% endfor %}
+</div>
