@@ -59,6 +59,10 @@ h1{
 	padding: 0.5em;
 }
 
+li {
+    margin-left: 1em;
+}
+
 /* title */
 
 .title {
