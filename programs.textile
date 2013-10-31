@@ -1,0 +1,108 @@
+---
+layout: default
+title: Программы и технологии
+menu: main
+---
+h2. Системное ПО
+
+Администрирование серверных ОС
+
+ * Windows 2012
+ * Windows 2008
+ * Windows 2003
+ * Windows NT
+ * Alt Linux
+ * Debian
+ * Ubuntu
+
+Администрирование прочих ОС
+
+   * Windows 7
+   * Windows XP
+   * Windows 98
+   * Windows 95
+   * Windows 3.1
+   * DOS
+   * Linux
+
+Администрирование СУБД
+
+   * ORACLE
+   * MS SQL Server
+   * FireBird
+   * PostgreSQL
+
+Прочее оборудование
+
+   * Cisco
+   * АПКШ Континент
+   * Panasonic PBX
+
+Службы, сервисы
+
+   * Active Directory
+   * LDAP
+   * VPN
+   * DNS
+   * DHCP
+   * NTP
+   * FTP
+   * HTTP
+   * Samba
+   * email
+   * Сервер 1С
+   * GLPI
+   * OCS Inventory
+
+
+h2. Разработка, внедрение и сопровождение ПО, обучение пользователей
+
+Предметные области
+
+   * ЖКХ
+   * Бюджетный учёт, контроль исполнения бюджета
+   * Бухгалтерский учёт
+   * Администраторание доходов бюджета
+   * Управление муниципальным имуществом
+   * ДБО клиентов банка
+   * Защита персональных данных
+   * Информационная безопасность
+
+Языки программирования, технологии
+
+   * ORACLE PL/SQL, Forms, Reports, OLAP
+   * PostgreSQL, pg/plSQL
+   * MS SQL (T-SQL)
+   * 1C
+   * VBA (MS Word, Excel, Access)
+   * Pascal: Dephi, FreePascal, Lazarus
+   * HTML, CSS
+   * Java Script
+   * PHP
+   * bash
+
+Программы, ресурсы
+
+   * MS Word, Excel, Access
+   * 1C:Предприятие, 1С:Бухгалтерия
+   * Парус
+   * OpenOffice, LibreOffice
+   * Крипто-ПРО
+   * Официальные сайты госзакупок и ГМУ
+   * Программы сдачи регламентированной отчётности
+   * Бюджет-КС
+   * Администратор-Д
+   * АЦК-Финансы
+   * Win-Transport
+   * Центр-КС
+   * СЭД ФК
+   * СУФД ФК
+   * TRUST Billing
+   * TRUST Finance & Management
+   * ETKA, ELSA
+   * GLPI
+   * OCS Inventory
+
+
+
+
