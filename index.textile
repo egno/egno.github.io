@@ -1,0 +1,14 @@
+---
+layout: default
+---
+* Компьютеры
+* Компьютерные сети
+* Информационная безопасность
+* Программы
+* Сайты
+* Системная интеграция
+
+!/files/vcard.jpg!
+^Vector Graphics by "Vector Open Stock":vos^
+
+[vos]http://www.vectoropenstock.com/
