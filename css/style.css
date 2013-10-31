@@ -114,6 +114,10 @@ li {
 	text-decoration: none;
 }
 
+.menu_item a:hover {
+  text-shadow: 0 0 15px #fff, 0 0 15px #fff, 0 0 15px #fff;
+  color:#046
+}
 
 /* content */
 
