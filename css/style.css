@@ -46,6 +46,7 @@ color:#a0a;
 .site {
 	margin: 1em auto;
 	width: 93%;
+	max-width: 50em;
 }
 
 div {
@@ -69,8 +70,17 @@ li {
 }
 
 img {
+	text-align:center;
     max-width: 100%;
 	border-radius:0.2em;
+  	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .photo {
@@ -78,8 +88,8 @@ img {
 	box-shadow:0.5em 0.5em 0.5em rgba(0,0,0,0.3);
 	border: 0.5em solid #fff;  
 	border-radius:0.3em;
-	float:left;
-	margin-right: 2em;
+	float:right;
+	margin-left: 2em;
 	margin-bottom: 1em;
 }
 
