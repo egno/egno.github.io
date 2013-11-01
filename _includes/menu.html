@@ -1,8 +1,12 @@
 <div class="menu">
-	{% for page in site.pages %}
-		{% if page.menu == 'main' %}
+	{% for spage in site.pages %}
+		{% if spage.menu == 'main' %}
+			{% if spage.title == page.title %}
+			<div class="menu_item current">
+			{% else %}
 			<div class="menu_item">
-			<a href={{ page.url }}>{{ page.title }}</a>
+			{% endif %}
+			<a href={{ spage.url }}>{{ spage.title }}</a>
 			</div>
 		{% endif %}
     {% endfor %}
