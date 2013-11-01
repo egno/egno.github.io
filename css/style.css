@@ -59,8 +59,28 @@ h1{
 	padding: 0.5em;
 }
 
+ul {
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
 li {
     margin-left: 1em;
+}
+
+img {
+    max-width: 100%;
+	border-radius:0.2em;
+}
+
+.photo {
+    max-width: 100%;
+	box-shadow:0.5em 0.5em 0.5em rgba(0,0,0,0.3);
+	border: 0.5em solid #fff;  
+	border-radius:0.3em;
+	float:left;
+	margin-right: 2em;
+	margin-bottom: 1em;
 }
 
 /* title */
@@ -72,6 +92,7 @@ li {
 	padding: 0.5em 0.5em;
 	background-image:
 		linear-gradient(to top, #ddd, #eee);
+	text-shadow: 0.1em 0.1em 0.1em #fff;
 }
 
 .title a{
@@ -79,6 +100,13 @@ li {
 	text-decoration: none;
 }
 
+.slogan {
+	color: #666;
+	font-size: 0.5em;
+	font-weight: bold;
+	letter-spacing: 0.3em;
+	text-shadow: 0.1em 0.1em 0.1em #fff;
+}
 
 /*menu*/
 
@@ -99,7 +127,7 @@ li {
 
 .menu_item {
 	float:left;
-	margin: auto 0.2em;
+	margin: 0.1em 0.2em;
 	padding:0.5em 1em;
 	font-weight:bold;
 	color:#747474;
@@ -128,6 +156,7 @@ li {
 	display:block;
 	padding: 1em 1em 1em 1em;
 }
+
 
 /* bottom side */
 

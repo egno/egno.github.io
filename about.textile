@@ -1,8 +1,10 @@
 ---
 layout: default
-title: Обо мне
+title: Контакты
 menu: main
 ---
 {{ site.person.name }}
 телефон: {{ site.person.phone }}
 email: <a href=mailto:{{ site.person.email }}>{{ site.person.email }}</a>
+
+
