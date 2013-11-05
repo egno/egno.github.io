@@ -8,3 +8,7 @@ menu: main
 email: <a href=mailto:{{ site.person.email }}>{{ site.person.email }}</a>
 
 
+!/files/vcard.jpg!
+^Vector Graphics by "Vector Open Stock":vos^
+
+[vos]http://www.vectoropenstock.com/
