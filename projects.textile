@@ -20,5 +20,5 @@ menu: main
 
 
 [site]http://ук-жилищник.рф/
-[clm]http://95.181.41.186:9980/clm/
-[macom]http://95.181.41.186:9980/macom/
+[clm]http://test.kem-uk.ru:9980/clm/
+[macom]http://test.kem.uk.ru:9980/macom/
