@@ -6,6 +6,7 @@ menu: main
 {{ site.person.name }}
 телефон: {{ site.person.phone }}
 email: <a href=mailto:{{ site.person.email }}>{{ site.person.email }}</a>
+<a href="https://tox.im/">Tox</a>: {{site.person.tox}}
 
 
 !/files/vcard.jpg!
