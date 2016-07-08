@@ -16,6 +16,9 @@ menu: main
 * Внедрение информационных систем территориальных органов власти
 * Внедрение биллинговой системы ЖКХ
 
+* FLAS:flas (in progress!)
+
+
 !/files/pg.jpg!
 !/files/3.jpg!
 
@@ -23,4 +26,4 @@ menu: main
 [site]http://ук-жилищник.рф/
 [clm]http://95.181.41.186:9980/clm/
 [macom]http://95.181.41.186:9980/macom/
-
+[flas]http://flas.mooo.com
