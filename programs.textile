@@ -6,7 +6,6 @@ menu: main
 h2. Системное ПО
 
 Администрирование серверных ОС
-
  * Windows 2012
  * Windows 2008
  * Windows 2003
@@ -14,9 +13,10 @@ h2. Системное ПО
  * Alt Linux
  * Debian
  * Ubuntu
+ * CentOS
 
 Администрирование прочих ОС
-
+   * Windows 10  
    * Windows 7
    * Windows XP
    * Windows 98
@@ -26,20 +26,20 @@ h2. Системное ПО
    * Linux
 
 Администрирование СУБД
-
    * ORACLE
    * MS SQL Server
    * FireBird
    * PostgreSQL
 
 Прочее оборудование
-
    * Cisco
    * АПКШ Континент
    * Panasonic PBX
 
 Службы, сервисы
-
+   * Docker
+   * AWS
+   * Git
    * Active Directory
    * LDAP
    * VPN
@@ -58,7 +58,6 @@ h2. Системное ПО
 h2. Разработка, внедрение и сопровождение ПО, обучение пользователей
 
 Предметные области
-
    * ЖКХ
    * Бюджетный учёт, контроль исполнения бюджета
    * Бухгалтерский учёт
@@ -69,7 +68,6 @@ h2. Разработка, внедрение и сопровождение ПО,
    * Информационная безопасность
 
 Языки программирования, технологии
-
    * ORACLE PL/SQL, Forms, Reports, OLAP
    * PostgreSQL, pg/plSQL
    * MS SQL (T-SQL)
@@ -77,12 +75,12 @@ h2. Разработка, внедрение и сопровождение ПО,
    * VBA (MS Word, Excel, Access)
    * Pascal: Dephi, FreePascal, Lazarus
    * HTML, CSS
-   * Java Script
+   * Java Script, Angular
    * PHP
    * bash
+   * haskel
 
 Программы, ресурсы
-
    * MS Word, Excel, Access
    * 1C:Предприятие, 1С:Бухгалтерия
    * Парус
