@@ -78,7 +78,7 @@ h2. Разработка, внедрение и сопровождение ПО,
    * Java Script, Angular
    * PHP
    * bash
-   * haskel
+   * Haskell
 
 Программы, ресурсы
    * MS Word, Excel, Access
