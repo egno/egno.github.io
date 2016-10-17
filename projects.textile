@@ -3,6 +3,7 @@ layout: default
 title: Проекты
 menu: main
 ---
+* Блог "Про SQL":prosql
 * "Свободная учётная платформа":flap.
 * Создание "сайта УК Жилищник":site
 * Создание веб-приложений учётных систем Управляющей компании ЖКХ: 
@@ -28,3 +29,4 @@ menu: main
 [macom]http://95.181.41.186:9980/macom/
 [flap]https://github.com/egno/flas/wiki
 [flasdemo]https://demo.flas.ga
+[prosql]https://prosql.github.io
