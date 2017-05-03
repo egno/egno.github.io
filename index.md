@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-!(files/tourist.jpg?raw=true)
+![photo](files/tourist.jpg?raw=true "Photo")
 
 
 Чем занимаюсь:
