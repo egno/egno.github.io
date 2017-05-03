@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-div(photo). !/files/tourist.jpg!
+!(/files/tourist.jpg)
 
 
 Чем занимаюсь:
