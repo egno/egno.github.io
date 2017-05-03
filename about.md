@@ -4,6 +4,8 @@ title: Контакты
 menu: main
 ---
 {{ site.person.name }}
+
 телефон: {{ site.person.phone }}
+
 email: {{ site.person.email }}
 
