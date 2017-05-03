@@ -71,12 +71,15 @@ h2. Разработка, внедрение и сопровождение ПО,
    * ORACLE PL/SQL, Forms, Reports, OLAP
    * PostgreSQL, pg/plSQL
    * MS SQL (T-SQL)
+   * JasperReport
+   * TensorFlow
    * 1C
    * VBA (MS Word, Excel, Access)
    * Pascal: Dephi, FreePascal, Lazarus
    * HTML, CSS
    * Java Script, Angular
    * PHP
+   * Python
    * bash
    * Haskell
 
