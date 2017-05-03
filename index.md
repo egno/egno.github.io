@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-!(/files/tourist.jpg)
+!(files/tourist.jpg?raw=true)
 
 
 Чем занимаюсь:
