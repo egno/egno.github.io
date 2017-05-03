@@ -5,8 +5,5 @@ menu: main
 ---
 {{ site.person.name }}
 телефон: {{ site.person.phone }}
-email: <a href=mailto:{{ site.person.email }}>{{ site.person.email }}</a>
+email: {{ site.person.email }}
 
-
-[tox]https://tox.chat/
-[vos]http://www.vectoropenstock.com/
