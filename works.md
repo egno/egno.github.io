@@ -14,7 +14,7 @@ menu: main
 
 ![]( egno.github.io/files/Screenshot-2017-11-21 http nsk-docker01.png?raw=True)
 
-![]( egno.github.io/files/Screenshot-2017-11-21 http nsk-docker01.png(1)?raw=True)
+![]( egno.github.io/files/Screenshot-2017-11-21 http nsk-docker01(1).png?raw=True)
 
-![]( egno.github.io/files/Screenshot-2017-11-21 http nsk-docker01.png(2)?raw=True)
+![]( egno.github.io/files/Screenshot-2017-11-21 http nsk-docker01(2).png?raw=True)
 
