@@ -9,4 +9,6 @@ menu: main
 
 email: {{ site.person.email }}
 
-tox ID: {{ site.person.tox }}
+[tox] ID: {{ site.person.tox }}
+
+[tox]: https://tox.chat
