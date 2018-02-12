@@ -9,3 +9,4 @@ menu: main
 
 email: {{ site.person.email }}
 
+tox ID: {{site.person.tox }}
