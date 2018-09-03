@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html" ; charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        *,
+        *:after,
+        *:before {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            transition: .5s ease-in-out;
+            /* добавим плавность переходов для всех элементов страницы*/
+        }
+
+        img {
+            display: block;
+        }
+
+        a {
+            color: rgb(159, 233, 252);
+            text-decoration: none;
+            outline: none;
+        }
+
+        body {
+            margin: 0;
+            min-width: 40em;
+            background: rgb(88, 160, 255);
+            font-family: Arial, sans-serif
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        p {
+            margin-bottom: 0.5em;
+        }
+
+        .image--float {
+            float: right;
+            width: 20%;
+            margin: 0 0 0.5em 1em;
+        }
+
+        .page {
+            width: 100%;
+            height: 100%;
+            min-height: 400px;
+            font-size: 0;
+            position: relative;
+        }
+
+        .page--background {
+            height: 100%;
+            width: 100%;
+            position: relative;
+            top: 0;
+        }
+
+        .page--background-image {
+            width: 100%;
+        }
+
+        .page--inside {
+            min-width: 40em;
+            font-size: medium;
+            position: absolute;
+            align-content: center;
+            color: #fff;
+            vertical-align: middle;
+        }
+
+        .page--content {
+            height: calc(100% - 5em);
+            top: 1em;
+        }
+
+        .page--panel {
+            height: 4em;
+            top: calc(100% - 4em);
+            width: auto;
+        }
+
+        .field {
+            padding: 0.5em;
+            margin: 0.5em;
+            border: 1em;
+            border-radius: 0.5em;
+            background-color: rgba(0, 0, 0, 0.3);
+            box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.6);
+            max-width: 50em;
+            text-shadow: 0 0 0.5em #000
+        }
+
+        .nav--button {
+            width: 3em;
+            height: 3em;
+            margin-left: 1em;
+            padding: 0.2em 1em;
+            display: inline-block;
+            border: 1em;
+            border-radius: 1.5em;
+            background-color: rgba(247, 237, 99, 0.3);
+            box-shadow: 0 0 0.5em (247, 237, 99, 0.6);
+            text-shadow: 0 0 0.5em #000
+        }
+
+        .nav--button a {
+            color: rgb(224, 249, 255);
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        .nav--button:hover {
+            background-color: rgba(247, 237, 99, 0.7);
+            box-shadow: 0 0 0.5em (247, 237, 99, 0.9);
+
+        }
+
+        .nav--button:hover a {
+            text-shadow: 0 0 0.5em rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+
+        @media screen and (max-width: 800px) {
+            .page--inside {
+                width: 100%;
+                left: 0;
+            }
+        }
+
+        @media screen and (min-width: 800px) {
+            .page--inside {
+                width: calc(100% -2em);
+                left: calc(50% - 26em);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page" id="page01">
+        <div class="page--background">
+            <img class="page--background-image" src="images/img01.png">
+        </div>
+        <div class="page--inside page--content">
+            <div class="field">
+                <h1>Александр Шелеметьев</h1>
+            </div>
+            <div class="field">
+                <img class="image--float" src="images/tourist.jpg">
+                <p>Эксперт в области баз данных. Автор
+                    <a href="https://prosql.github.io/book">краткого учебника SQL</a>. Автор нескольких публикаций на
+                    <a href="https://habr.com">Хабре</a> и
+                    <a href="http://codingsight.com">Codingsight</a> на темы архитектуры баз данных и оптимизации запросов.
+                </p>
+                <p>С начала 90-х годов профессионально занимаюсь разработкой, внедрением и интеграцией информационных систем.
+                    Работал и аналитиком, и системным администратором, и руководителем проектов, и даже поднял собственное
+                    предприятие. Но разработку никогда не бросал.</p>
+                <p>Влюблён в мощь и расширяемость
+                    <a href="https://www.postgresql.org/">PostgreSQL</a>, гибкость и удобство
+                    <a href="https://ru.wikipedia.org/wiki/Linux">Linux</a>, надёжность
+                    <a href="https://git-scm.com/">Git</a>. Постоянно изучаю новые языки, фреймворки, технологии.
+                </p>
+                <p>По жизни очень люблю путешествовать. Все фото здесь - авторские</p>
+            </div>
+            <div class="nav--button">
+                <a href="#projects01">&#x2193;</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="page" id="projects01">
+        <div class="page--background">
+            <img class="page--background-image" src="images/img02.png">
+        </div>
+        <div class="page--inside page--content">
+            <div class="field">
+                <h1>Монитор конвейера</h1>
+            </div>
+            <div class="field">
+                <a href="images/ASM_monitor02.png">
+                    <img class="image--float" src="images/ASM_monitor02.png">
+                </a>
+                <a href="images/ASM_monitor01.png">
+                    <img class="image--float" src="images/ASM_monitor01.png">
+                </a>
+                <p>Веб приложение, наглядно показывающее состояние сборочного конвейера.</p>
+                <p>Данные берутся из базы данных MS SQL Server.</p>
+                <p>REST API написан на Python + Flask.</p>
+                <p> Фронтенд: JavaScript, Echarts, VueJS, Nuxt (SSR) </p>
+                <p>Деплой - на Linux + Docker + Nginx</p>
+                <p>
+                    <a href="https://github.com/egno/asmmon-ui">GitHub</a>
+                </p>
+            </div>
+            <div class="nav--button">
+                <a href="#projects02">&#x2193;</a>
+            </div>
+        </div>
+        <div class="page--inside page--panel">
+        </div>
+    </div>
+
+
+    <div class="page" id="projects02">
+        <div class="page--background">
+            <img class="page--background-image" src="images/img03.png">
+        </div>
+        <div class="page--inside page--content">
+            <div class="field">
+                <h1>Анализ связей клиентов</h1>
+            </div>
+            <div class="field">
+                <a href="images/nsk-docker02.png">
+                    <img class="image--float" src="images/nsk-docker02.png">
+                </a>
+                <a href="images/nsk-docker01.png">
+                    <img class="image--float" src="images/nsk-docker01.png">
+                </a>
+                <p>Веб приложение, показывающее взаимные клиентов.</p>
+                <p>Данные берутся из базы данных PostgreSQL.</p>
+                <p>Сервис, написанный на Python, периодически формирует статические файлы с данными о клиентах. Использовал
+                    статику для уменьшения нагрузки на сервер.
+                </p>
+                <p> Фронтенд: JavaScript, d3js </p>
+                <p>Деплой - на Linux + Docker + Nginx</p>
+            </div>
+            <div class="nav--button">
+                <a href="#projects03">&#x2193;</a>
+            </div>
+        </div>
+        <div class="page--inside page--panel">
+        </div>
+    </div>
+
+    <div class="page" id="projects03">
+        <div class="page--background">
+            <img class="page--background-image" src="images/img04.png">
+        </div>
+        <div class="page--inside page--content">
+            <div class="field">
+                <h1>Мобильная отчетность</h1>
+            </div>
+            <div class="field">
+                <p>Фронтенд: VueJS + Nuxt. </p>
+                <p>Бэкенд: PostgREST. </p>
+                <p>С использованием plpython3 в PostgreSQL сделал интеграцию с Active Directory (AD): аутентификацию и авторизацию.
+                    Пользователь видит только те данные, к которым у него есть доступ согласно группам AD.</p>
+                <p>Деплой - на Linux + Docker + Nginx</p>
+            </div>
+            <div class="nav--button">
+                <a href="#projects04">&#x2193;</a>
+            </div>
+        </div>
+        <div class="page--inside page--panel">
+        </div>
+    </div>
+
+
+    <div class="page" id="projects04">
+        <div class="page--background">
+            <img class="page--background-image" src="images/img05.png">
+        </div>
+        <div class="page--inside page--content">
+            <div class="field">
+                <h1>Сервис синхронизации хранимых процедур на удаленных серверах MS SQL Server</h1>
+            </div>
+            <div class="field">
+                <a href="images/updater.png">
+                    <img class="image--float" src="images/updater.png">
+                </a>
+                <p>Периодически по расписанию обновляет хранимые процедуры на серверах MS SQL Server из Git репозитория.</p>
+                <p>Python 3.5 с модулями shell, os, re, pymssql.</p>
+                <p>Фронтенд: JavaScript, VueJS </p>
+                <p>Деплой - на Linux + Docker + Nginx</p>
+            </div>
+            <div class="nav--button">
+                <a href="#projects-goods">&#x2193;</a>
+            </div>
+        </div>
+        <div class="page--inside page--panel">
+        </div>
+    </div>
+
+
+    <div class="page" id="projects-goods">
+        <div class="page--background">
+            <img class="page--background-image" src="images/img06.png">
+        </div>
+        <div class="page--inside page--content">
+            <div class="field">
+                <h1>Кодировка товаров</h1>
+            </div>
+            <div class="field">
+                <h3>Сервис кодировки </h3>
+                <p>Python 2.7. Из базы данных частями читается информация о наименованиях товаров. В несколько потоков производится
+                    сопоставление этих наименований тем, что находятся в прайсе. Работает “умный” алгоритм, который разбивает
+                    наименование на составные части и при помощи комбинации методов N ближайших соседей и расстояния Левенштейна
+                    находит ближайшее соответствие или несколько. Решено много вопросов оптимизации производительности.
+                </p>
+            </div>
+            <div class="field">
+                <h3>Сервис поиска баркодов товаров в интернете </h3>
+                <p>На Python 3.6 написан REST бэкенд. Использованы модули Flask, Flask_restful, requests, lxml, pymssql. Деплой
+                    - Docker. На запрос к REST сервису опрашиваются сайты, содержащие информацию о баркодах товаров. Сводная
+                    информация возвращается в формате JSON.
+
+                </p>
+            </div>
+            <div class="field">
+                <h3>Сервис ручной верификации кодировки товаров </h3>
+                <p>Фронтенд: VueJS + WebSocket. На Python 3.6 написан REST бэкенд. Использованы модули Flask, Flask_restful.
+                    БД: PostgreSQL. Деплой - Docker. Данные берутся из базы данных PostgreSQL, выдаются в JSON. Используются
+                    NOTIFY/LISTEN, события передаются на фронтенд через web сокеты.
+
+                </p>
+            </div>
+            <div class="nav--button">
+                <a href="#projects-other">&#x2193;</a>
+            </div>
+        </div>
+        <div class="page--inside page--panel">
+        </div>
+    </div>
+
+    <div class="page" id="projects-other">
+        <div class="page--background">
+            <img class="page--background-image" src="images/img07.png">
+        </div>
+        <div class="page--inside page--content">
+            <div class="field">
+                <h1>Прочие проекты</h1>
+            </div>
+            <div class="field">
+                <h3>Геокодировка адресов </h3>
+                <p>Создан REST API на Python 3.6, который в несколько потоков производит запросы к внешнему API геокодера. Результаты
+                    записываются в БД.</p>
+            </div>
+            <div class="field">
+                <h3>Сбор информации с сайтов интернет</h3>
+                <p>Несколько сервисов на Python 3.6 и PostgreSQL + PostgREST. Управление и мониторинг - VueJS. По расписанию
+                    производится парсинг сайтов (лицензии Росдравнадзора, разничные цены на товары и т.д.). Предварительно
+                    обработанная информация записывается в БД.
+                </p>
+            </div>
+            <div class="field">
+                <h3>Интеграция web сайта (биллинга) с 1С, сервисом рассылок и оповещениями в Telegram</h3>
+                <p>REST сервис, позволяющий передать информацию из 1С в базу данных сайта и наоборот, а также синхронизировать
+                    базу адресов с сервисом рассылок. Бот Telegram, позволяющий клиентам получать информацию о состоянии
+                    своих лицевых счетов и операциях.
+                </p>
+                <p>
+                    <a href="https://github.com/egno/armada-api">GitHub</a>
+                </p>
+            </div>
+            <div class="field">
+                <h3>Участие в Microsoft OpenHack</h3>
+                <p>Были задания в основном на Python в области распознавания изображений. В составе команды выполнил все задания
+                    в рекордный для этих мероприятий срок. Сверх заданий сделал Telegram бота, распознающего категорию товара
+                    по фото.
+                </p>
+            </div>
+            <div class="nav--button">
+                <a href="#projects-other-2">&#x2193;</a>
+            </div>
+        </div>
+        <div class="page--inside page--panel">
+        </div>
+    </div>
+
+    <div class="page" id="projects-other-2">
+        <div class="page--background">
+            <img class="page--background-image" src="images/img08.png">
+        </div>
+        <div class="page--inside page--content">
+            <div class="field">
+                <h1>Прочие проекты - 2</h1>
+            </div>
+            <div class="field">
+                <h3>Геокодировка адресов </h3>
+                <p>Создан REST API на Python 3.6, который в несколько потоков производит запросы к внешнему API геокодера. Результаты
+                    записываются в БД.</p>
+            </div>
+            <div class="field">
+                <p>
+                    <a href="https://github.com/egno/work-calendar">REST API для российского производственного календаря</a>
+                </p>
+            </div>
+            <div class="field">
+                <h3>Free/Libre Accouting Platform </h3>
+                <p>Свободная учетная платформа с максимальным использованием возможностей PostgreSQL
+                </p>
+                <p>
+                    <a href="https://github.com/egno/flas/wiki">GitHub</a>
+                </p>
+            </div>
+            <div class="field">
+                <h3>TRUST Billing, TRUST Finance & Management, TRUST Analytics</h3>
+                <p>В начале 2000-х в компании “Корпорация экономического развития регионов” был ведущим разработчиком ряда информационных
+                    систем для ЖКХ на продуктах Oracle.
+                </p>
+
+            </div>
+            <div class="nav--button">
+                <a href="#projects">&#x2193;</a>
+            </div>
+        </div>
+        <div class="page--inside page--panel">
+        </div>
+    </div>
+
+
+    <div class="page" id="projects">
+        <div class="page--background">
+            <img class="page--background-image" src="images/img09.png">
+        </div>
+        <div class="page--inside page--content">
+            <div class="field">
+                <h1>Ссылки на проекты</h1>
+            </div>
+            <div class="field">
+                <a href="https://github.com/egno">GitHub</a>
+            </div>
+            <div class="field">
+                <a href="https://prosql.github.io/">Блог Про SQL</a>
+            </div>
+            <div class="field">
+                <a href="https://prosql.github.io/book">Краткий учебник SQL</a>
+            </div>
+            <div class="nav--button">
+                <a href="#contacts">&#x2193;</a>
+            </div>
+        </div>
+        <div class="page--inside page--panel">
+        </div>
+    </div>
+
+    <div class="page" id="contacts">
+        <div class="page--background">
+            <img class="page--background-image" src="images/img10.png">
+        </div>
+        <div class="page--inside page--content">
+            <div class="field">
+                <h1>Контакты</h1>
+            </div>
+            <div class="field">
+                <p>Александр Викторович Шелеметьев</p>
+                <p>телефон:
+                    <a href="tel:+79658239468">+7 965 823-9468</a>
+                </p>
+                <p>email:
+                    <a href="mailto:ex.lxndr@gmail.com">ex.lxndr@gmail.com</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
