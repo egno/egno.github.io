@@ -2,154 +2,50 @@
 <html lang="ru">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html" ; charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        *,
-        *:after,
-        *:before {
-            box-sizing: border-box;
-            padding: 0;
-            margin: 0;
-            transition: .5s ease-in-out;
-            /* добавим плавность переходов для всех элементов страницы*/
-        }
-
-        img {
-            display: block;
-        }
-
-        a {
-            color: rgb(159, 233, 252);
-            text-decoration: none;
-            outline: none;
-        }
-
-        body {
-            margin: 0;
-            min-width: 40em;
-            background: rgb(88, 160, 255);
-            font-family: Arial, sans-serif
-        }
-
-        h1 {
-            margin: 0;
-        }
-
-        p {
-            margin-bottom: 0.5em;
-        }
-
-        .image--float {
-            float: right;
-            width: 20%;
-            margin: 0 0 0.5em 1em;
-        }
-
-        .page {
-            width: 100%;
-            height: 100%;
-            min-height: 600px;
-            font-size: 0;
-            position: relative;
-        }
-
-        .page--background {
-            height: 100%;
-            width: 100%;
-            position: relative;
-            top: 0;
-        }
-
-        .page--background-image {
-            width: 100%;
-        }
-
-        .page--inside {
-            min-width: 40em;
-            font-size: medium;
-            position: absolute;
-            align-content: center;
-            color: #fff;
-            vertical-align: middle;
-        }
-
-        .page--content {
-            height: calc(100% - 5em);
-            top: 1em;
-        }
-
-        .page--panel {
-            height: 4em;
-            top: calc(100% - 4em);
-            width: auto;
-        }
-
-        .field {
-            padding: 0.5em;
-            margin: 0.5em;
-            border: 1em;
-            border-radius: 0.5em;
-            background-color: rgba(0, 0, 0, 0.3);
-            box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.6);
-            max-width: 50em;
-            text-shadow: 0 0 0.5em #000
-        }
-
-        .nav--button {
-            width: 3em;
-            height: 3em;
-            margin-left: 1em;
-            padding: 0.2em 1em;
-            display: inline-block;
-            border: 1em;
-            border-radius: 1.5em;
-            background-color: rgba(247, 237, 99, 0.3);
-            box-shadow: 0 0 0.5em (247, 237, 99, 0.6);
-            text-shadow: 0 0 0.5em #000
-        }
-
-        .nav--button a {
-            color: rgb(224, 249, 255);
-            font-size: 2em;
-            font-weight: bold;
-        }
-
-        .nav--button:hover {
-            background-color: rgba(247, 237, 99, 0.7);
-            box-shadow: 0 0 0.5em (247, 237, 99, 0.9);
-
-        }
-
-        .nav--button:hover a {
-            text-shadow: 0 0 0.5em rgb(255, 255, 255);
-            color: rgb(0, 0, 0);
-        }
-
-        @media screen and (max-width: 800px) {
-            .page--inside {
-                width: 100%;
-                left: 0;
-            }
-        }
-
-        @media screen and (min-width: 800px) {
-            .page--inside {
-                width: calc(100% -2em);
-                left: calc(50% - 26em);
-            }
-        }
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <style type="text/css">
+    html {
+        font-family: 'Roboto Mono', monospace;
+        background-color: #dddddd;
+    } 
+    body {
+        max-width: 40em;
+        margin: 0px auto;
+        padding: 1em
+    }
+    h1 {
+        margin-top: 2em;
+    }
+    h2 {
+        margin-top: 1.6em;
+    }
+    h3 {
+        margin-top: 1.2em;
+        margin-bottom: 0.5em;
+    }
+    p {
+        margin-top: 0.4em;
+        margin-bottom: 0.2em;
+    }
+    .image--float {
+        max-width: 100%;
+        min-width: 8em;
+    }
+    .thumb {
+        width: 40em;
+    }
     </style>
 </head>
 
 <body>
-    <div class="page" id="page01">
-        <div class="page--background">
-            
-        </div>
-        <div class="page--inside page--content">
             <div class="field">
                 <h1>Александр Шелеметьев</h1>
+                <a href="#contacts">Контакты</a>
+            </div>
+            <div class="field">
+                <h2>О себе</h2>
             </div>
             <div class="field">
                 <img class="image--float" src="images/tourist.jpg">
@@ -168,27 +64,19 @@
                 </p>
                 <p>По жизни очень люблю путешествовать</p>
             </div>
-            <div class="nav--button">
-                <a href="#projects01">&#x2193;</a>
-            </div>
 
-        </div>
-    </div>
-
-    <div class="page" id="projects01">
-        <div class="page--background">
-            
-        </div>
-        <div class="page--inside page--content">
             <div class="field">
-                <h1>Монитор конвейера</h1>
+                <h1>Проекты</h1>
+            </div>
+            <div class="field">
+                <h2>Монитор конвейера</h2>
             </div>
             <div class="field">
                 <a href="images/ASM_monitor02.png">
-                    <img class="image--float" src="images/ASM_monitor02.png">
+                    <img class="image--float thumb" src="images/ASM_monitor02.png">
                 </a>
                 <a href="images/ASM_monitor01.png">
-                    <img class="image--float" src="images/ASM_monitor01.png">
+                    <img class="image--float thumb" src="images/ASM_monitor01.png">
                 </a>
                 <p>Веб приложение, наглядно показывающее состояние сборочного конвейера.</p>
                 <p>Данные берутся из базы данных MS SQL Server.</p>
@@ -199,31 +87,18 @@
                     <a href="https://github.com/egno/asmmon-ui">GitHub</a>
                 </p>
             </div>
-            <div class="nav--button">
-                <a href="#projects02">&#x2193;</a>
-            </div>
-        </div>
-        <div class="page--inside page--panel">
-        </div>
-    </div>
 
-
-    <div class="page" id="projects02">
-        <div class="page--background">
-            
-        </div>
-        <div class="page--inside page--content">
             <div class="field">
-                <h1>Анализ связей клиентов</h1>
+                <h2>Анализ связей клиентов</h2>
             </div>
             <div class="field">
                 <a href="images/nsk-docker02.png">
-                    <img class="image--float" src="images/nsk-docker02.png">
+                    <img class="image--float thumb" src="images/nsk-docker02.png">
                 </a>
                 <a href="images/nsk-docker01.png">
-                    <img class="image--float" src="images/nsk-docker01.png">
+                    <img class="image--float thumb" src="images/nsk-docker01.png">
                 </a>
-                <p>Веб приложение, показывающее взаимные клиентов.</p>
+                <p>Веб приложение, показывающее взаимные связи клиентов.</p>
                 <p>Данные берутся из базы данных PostgreSQL.</p>
                 <p>Сервис, написанный на Python, периодически формирует статические файлы с данными о клиентах. Использовал
                     статику для уменьшения нагрузки на сервер.
@@ -231,21 +106,9 @@
                 <p> Фронтенд: JavaScript, d3js </p>
                 <p>Деплой - на Linux + Docker + Nginx</p>
             </div>
-            <div class="nav--button">
-                <a href="#projects03">&#x2193;</a>
-            </div>
-        </div>
-        <div class="page--inside page--panel">
-        </div>
-    </div>
 
-    <div class="page" id="projects03">
-        <div class="page--background">
-            
-        </div>
-        <div class="page--inside page--content">
             <div class="field">
-                <h1>Мобильная отчетность</h1>
+                <h2>Мобильная отчетность</h2>
             </div>
             <div class="field">
                 <p>Фронтенд: VueJS + Nuxt. </p>
@@ -254,48 +117,22 @@
                     Пользователь видит только те данные, к которым у него есть доступ согласно группам AD.</p>
                 <p>Деплой - на Linux + Docker + Nginx</p>
             </div>
-            <div class="nav--button">
-                <a href="#projects04">&#x2193;</a>
-            </div>
-        </div>
-        <div class="page--inside page--panel">
-        </div>
-    </div>
 
-
-    <div class="page" id="projects04">
-        <div class="page--background">
-            
-        </div>
-        <div class="page--inside page--content">
             <div class="field">
-                <h1>Сервис синхронизации хранимых процедур на удаленных серверах MS SQL Server</h1>
+                <h2>Сервис синхронизации хранимых процедур на удаленных серверах MS SQL Server</h2>
             </div>
             <div class="field">
                 <a href="images/updater.png">
-                    <img class="image--float" src="images/updater.png">
+                    <img class="image--float thumb" src="images/updater.png">
                 </a>
                 <p>Периодически по расписанию обновляет хранимые процедуры на серверах MS SQL Server из Git репозитория.</p>
                 <p>Python 3.5 с модулями shell, os, re, pymssql.</p>
                 <p>Фронтенд: JavaScript, VueJS </p>
                 <p>Деплой - на Linux + Docker + Nginx</p>
             </div>
-            <div class="nav--button">
-                <a href="#projects-goods">&#x2193;</a>
-            </div>
-        </div>
-        <div class="page--inside page--panel">
-        </div>
-    </div>
-
-
-    <div class="page" id="projects-goods">
-        <div class="page--background">
-            
-        </div>
-        <div class="page--inside page--content">
+ 
             <div class="field">
-                <h1>Кодировка товаров</h1>
+                <h2>Кодировка товаров</h2>
             </div>
             <div class="field">
                 <h3>Сервис кодировки </h3>
@@ -321,21 +158,9 @@
 
                 </p>
             </div>
-            <div class="nav--button">
-                <a href="#projects-other">&#x2193;</a>
-            </div>
-        </div>
-        <div class="page--inside page--panel">
-        </div>
-    </div>
 
-    <div class="page" id="projects-other">
-        <div class="page--background">
-            
-        </div>
-        <div class="page--inside page--content">
             <div class="field">
-                <h1>Прочие проекты</h1>
+                <h2>Прочие проекты</h2>
             </div>
             <div class="field">
                 <h3>Геокодировка адресов </h3>
@@ -366,27 +191,7 @@
                     по фото.
                 </p>
             </div>
-            <div class="nav--button">
-                <a href="#projects-other-2">&#x2193;</a>
-            </div>
-        </div>
-        <div class="page--inside page--panel">
-        </div>
-    </div>
 
-    <div class="page" id="projects-other-2">
-        <div class="page--background">
-            
-        </div>
-        <div class="page--inside page--content">
-            <div class="field">
-                <h1>Прочие проекты - 2</h1>
-            </div>
-            <div class="field">
-                <h3>Геокодировка адресов </h3>
-                <p>Создан REST API на Python 3.6, который в несколько потоков производит запросы к внешнему API геокодера. Результаты
-                    записываются в БД.</p>
-            </div>
             <div class="field">
                 <p>
                     <a href="https://github.com/egno/work-calendar">REST API для российского производственного календаря</a>
@@ -407,20 +212,7 @@
                 </p>
 
             </div>
-            <div class="nav--button">
-                <a href="#projects">&#x2193;</a>
-            </div>
-        </div>
-        <div class="page--inside page--panel">
-        </div>
-    </div>
 
-
-    <div class="page" id="projects">
-        <div class="page--background">
-            
-        </div>
-        <div class="page--inside page--content">
             <div class="field">
                 <h1>Ссылки на проекты</h1>
             </div>
@@ -433,26 +225,14 @@
             <div class="field">
                 <a href="https://prosql.github.io/book">Краткий учебник SQL</a>
             </div>
-            <div class="nav--button">
-                <a href="#contacts">&#x2193;</a>
-            </div>
-        </div>
-        <div class="page--inside page--panel">
-        </div>
-    </div>
 
-    <div class="page" id="contacts">
-        <div class="page--background">
-            
-        </div>
-        <div class="page--inside page--content">
-            <div class="field">
+            <div class="field" id="contacts">
                 <h1>Контакты</h1>
             </div>
             <div class="field">
                 <p>Александр Викторович Шелеметьев</p>
                 <p>телефон:
-                    <a href="tel:+79658239468">+7 965 823-9468</a>
+                    <a href="tel:+79658239468">+7(965)823-9468</a>
                 </p>
                 <p>email:
                     <a href="mailto:ex.lxndr@gmail.com">ex.lxndr@gmail.com</a>
