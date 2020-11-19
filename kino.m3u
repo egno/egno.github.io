@@ -1,7 +1,7 @@
 ﻿#EXTM3U url-tvg="http://epg.it999.ru/edem.xml.gz"
 
-#EXTINF:-1,КЛАССИКА КИНО  /HD
-https://strm.yandex.ru/kal/kinoclassic/kinoclassic0_169_720p.json/index-v1-a1.m3u8
+#EXTINF:-1,Kino 24
+http://85.192.44.14/hls/Kino24Ru/playlist.m3u8
 
 #EXTINF:-1,Советское кино /HD
 https://strm.yandex.ru/kal/sovkino_supres/sovkino_supres0_169_720p.json/index-v1-a1.m3u8
@@ -10,8 +10,17 @@ https://strm.yandex.ru/kal/sovkino_supres/sovkino_supres0_169_720p.json/index-v1
 #EXTGRP:Кино
 http://89.106.234.3:80/Rodnoe_kino_34_35.m3u8
 
-#EXTINF:-1,Kino 24
-http://85.192.44.14/hls/Kino24Ru/playlist.m3u8
+#EXTINF:-1, Кино-1
+https://autopilot.catcast.tv/content/38617/index.m3u8
+
+#EXTINF:-1,Камеди
+http://40791904.cbilant.com/iptv/B9HTV5FNS8G6VH/2441/index.m3u8
+
+#EXTINF:-1,TV1000
+http://188.35.9.5:10020/stolen/484c/hot.dll
+
+#EXTINF:-1,TV1000 World Kino
+http://portal.ott.pink/watch/223/video.m3u8?token=D3A713E5C73E21A29989C07CE5DF1B3D
 
 #EXTINF:-1,ULTO
 http://ultotv.ru:8888/live/uhd/playlist.m3u8
