@@ -9,114 +9,35 @@ https://strm.yandex.ru/kal/sovkino_supres/sovkino_supres0_169_720p.json/index-v1
 #EXTINF:-1, Кино-1
 https://autopilot.catcast.tv/content/38617/index.m3u8
 
-#EXTINF:-1,СССР ТВ
+#EXTINF:-1 group-title="All",ПАМЯТЬ
 https://autopilot.catcast.tv/content/38821/index.m3u8
 
-#EXTINF:-1,Кинозал 7 (Evgen СССР) 
-https://v2.catcast.me/content/36506/index.m3u8
+#EXTINF:-1,СССР ТВ
+https://autopilot.catcast.tv/content/38821/index.m3u8
 
 #EXTINF:-1,Первый СССР
 http://62.76.27.70:8081/1pnk/1pnk/playlist.m3u8
 
-#EXTINF:-1,О!Кино (ForkPlayer)
-http://live02-cdn.tv.ti.ru:80/dtv/id1143_NBN_SG--Okino/03/plst.m3u8
-
 #EXTINF:-1,РЕТРО
 http://5.128.254.228:81/udp/239.1.21.23:1234
 
-#EXTINF:-1,Ностальгия
-http://51.68.141.106:8081/tv/nostalgiya/playlist.m3u8
+#EXTINF:-1 group-title="All",ВСЁ ВКЛЮЧЕНО
+https://autopilot.catcast.tv/content/39161/index.m3u8
 
-#EXTINF:-1,TOP: 80's
-http://topchantv.net:3456/911tvPromo1/Promo/277
-#EXTINF:-1,TOP: BUDO HD
-http://topchantv.net:3456/911tvPromo1/Promo/428
-#EXTINF:-1,TOP: CINEMA HD
-http://topchantv.net:3456/911tvPromo1/Promo/1611
-#EXTINF:-1,TOP: USSR
-http://topchantv.net:3456/911tvPromo1/Promo/6641
-
-
-#EXTINF:-1,ULTO
-http://ultotv.ru:8888/live/uhd/playlist.m3u8
+#EXTINF:0 group-title="Cognitive",24ТЕХНО
+#EXTGRP:Cognitive
+http://myott.tv/stream/DIPK8H19CP8/209.m3u8
 
 #EXTINF:-1,Фантастика Sci-Fi
 https://autopilot.catcast.tv/content/38801/index.m3u8
-
-#EXTINF:-1,Ultra HD Cinema FulHD
-#EXTVLCOPT:http-user-agent=OnlineTvAppDroid
-http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/bw6000000/variant.m3u8
-
-#EXTINF:-1,Kino UHD
-http://188.35.9.26:16050/udp/238.0.16.1:69000
-
-
-#EXTINF:-1,Остросюжетное HD
-http://188.35.9.26:14050/udp/238.0.14.3:69000
 
 #EXTINF:-1,A2
 #EXTGRP:Кино
 http://sc.id-tv.kz/A2_34_35.m3u8
 
-#EXTINF:-1,Amedia Hit HD
-#EXTGRP:Кино
-http://sc.id-tv.kz:80/amedia_hit_hd_38_39.m3u8
-
-#EXTINF:-1,Cinema
-https://sc.id-tv.kz/Cinema_34_35.m3u8
-
-
 #EXTINF:-1,Shot TV
 #EXTGRP:Кино
 http://persik.by/stream/0264/420211/10454.m3u8
-
-#EXTINF:-1,Канал 1
-https://5656.ga/ch1.m3u8
-#EXTINF:-1,Канал 2
-https://5656.ga/ch2.m3u8
-#EXTINF:-1,Канал 3
-https://5656.ga/ch3.m3u8
-#EXTINF:-1,Канал 4
-https://5656.ga/ch4.m3u8
-#EXTINF:-1,Канал 5
-https://5656.ga/ch5.m3u8
-#EXTINF:-1,Канал 6
-https://5656.ga/ch6.m3u8
-#EXTINF:-1,Канал 7
-https://5656.ga/ch7.m3u8
-#EXTINF:-1,Канал 8
-https://5656.ga/ch8.m3u8
-#EXTINF:-1,Канал 9
-https://5656.ga/ch9.m3u8
-#EXTINF:-1,Канал 10
-https://5656.ga/ch10.m3u8
-#EXTINF:-1,Канал 11
-https://5656.ga/ch11.m3u8
-#EXTINF:-1,Канал 12
-https://5656.ga/ch12.m3u8
-#EXTINF:-1,Канал 13
-https://5656.ga/ch13.m3u8
-#EXTINF:-1,Канал 14
-https://5656.ga/ch14.m3u8
-#EXTINF:-1,Канал 15
-https://5656.ga/ch15.m3u8
-#EXTINF:-1,Канал 16
-https://5656.ga/ch16.m3u8
-#EXTINF:-1,Канал 17
-https://5656.ga/ch17.m3u8
-#EXTINF:-1,Канал 18
-https://5656.ga/ch18.m3u8
-
-
-#EXTINF:-1,LOVE NATURE
-#EXTVLCOPT:http-user-agent=OnlineTvAppDroid
-http://zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K_HLS/bw6000000/variant.m3u8
-
-#EXTINF:-1,Мир /HD
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
-
-#EXTINF:-1,НСТ
-http://ott-cdn.ucom.am/s87/04.m3u8
 
 #EXTINF:-1,НТМ HD
 http://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
@@ -126,9 +47,6 @@ http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
 
 #EXTINF:-1,СТС International
 http://sc.id-tv.kz/STS_36_37.m3u8
-
-#EXTINF:-1,Melody Channel TV
-http://186.155.200.118:1935/live/MelodyChannel/playlist.m3u8
 
 
 #EXTINF:-1,One.by 4K
@@ -151,9 +69,6 @@ http://31.13.223.104:1935/travel/travel.stream/playlist.m3u8
 #EXTINF:-1,Bulgaria On Air
 http://edge15.cdn.bg:2006/fls/bonair.stream/playlist.m3u8
 
-#EXTINF:-1,This is Bulgaria HD
-http://31.13.223.104:1935/travel/community.stream/playlist.m3u8
-
 #EXTINF:-1,24 Kitchen
 https://cdn1.mobiletv.bg/T3/24kitchen/24kitchen_794613_850k.m3u8
 
@@ -174,6 +89,7 @@ https://cdn1.mobiletv.bg/T3/kinonova/kinonova_794613_850k.m3u8
 
 #EXTINF:-1,КАНАЛ 3
 https://cdn1.mobiletv.bg/T3/kanal3/kanal3_794613_850k.m3u8
+
 #EXTINF:-1,Канал 4
 https://cdn1.mobiletv.bg/T10/kanal4/kanal4_794613_850k.m3u8
 
