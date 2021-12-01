@@ -1,7 +1,10 @@
 #EXTM3U url-tvg="http://epg.it999.ru/edem.xml.gz"
 
-#EXTINF:-1, Home video
+#EXTINF:-1, Home video 1
 http://192.168.0.204:1234
+
+#EXTINF:-1, Home video 2
+http://192.168.0.204:1235
 
 #EXTINF:-1,Советское кино /HD
 https://strm.yandex.ru/kal/sovkino_supres/sovkino_supres0_169_720p.json/index-v1-a1.m3u8
