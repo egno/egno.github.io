@@ -9,9 +9,6 @@ https://strm.yandex.ru/kal/sovkino_supres/sovkino_supres0_169_720p.json/index-v1
 #EXTINF:-1, Кино-1
 https://autopilot.catcast.tv/content/38617/index.m3u8
 
-#EXTINF:-1 group-title="All",ПАМЯТЬ
-https://autopilot.catcast.tv/content/38821/index.m3u8
-
 #EXTINF:-1,СССР ТВ
 https://autopilot.catcast.tv/content/38821/index.m3u8
 
