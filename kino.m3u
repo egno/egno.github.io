@@ -12,18 +12,36 @@ https://autopilot.catcast.tv/content/38617/index.m3u8
 #EXTINF:-1,СССР ТВ
 https://autopilot.catcast.tv/content/38821/index.m3u8
 
+#EXTINF:-1,Сериалы СССР
+https://autopilot.catcast.tv/content/42181/index.m3u8
+
 #EXTINF:-1,Первый СССР
 http://62.76.27.70:8081/1pnk/1pnk/playlist.m3u8
+
+#EXTINF:-1,Музыка Кино
+https://autopilot.catcast.tv/content/37739/index.m3u8
 
 #EXTINF:-1 group-title="All",ВСЁ ВКЛЮЧЕНО
 https://autopilot.catcast.tv/content/39161/index.m3u8
 
-#EXTINF:-1,Фантастика Sci-Fi
-https://autopilot.catcast.tv/content/38801/index.m3u8
-
 #EXTINF:-1,Shot TV
 #EXTGRP:Кино
 http://persik.by/stream/0264/420211/10454.m3u8
+
+#EXTINF:-1,Music-1 Int
+https://autopilot.catcast.tv/content/37745/index.m3u8
+
+#EXTINF:-1,Music-2 Int
+https://autopilot.catcast.tv/content/37742/index.m3u8
+
+#EXTINF:-1,100% 
+https://autopilot.catcast.tv/content/40127/index.m3u8
+
+#EXTINF:-1,Romantic&Ballads 
+https://autopilot.catcast.tv/content/39696/index.m3u8
+
+#EXTINF:-1,KBC_НАШ ROCK
+https://autopilot.catcast.tv/content/39824/index.m3u8
 
 #EXTINF:-1,Планета
 https://cdn1.mobiletv.bg/T5/planeta/planeta_794613_850k.m3u8
