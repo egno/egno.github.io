@@ -4,7 +4,7 @@
 http://tadam.ga:31234
 
 #EXTINF:-1, Home video 2
-http://192.168.0.204:1234
+http://tadam.ga:31235
 
 #EXTINF:-1, Кино-1
 https://autopilot.catcast.tv/content/38617/index.m3u8
@@ -12,18 +12,11 @@ https://autopilot.catcast.tv/content/38617/index.m3u8
 #EXTINF:-1,СССР ТВ
 https://autopilot.catcast.tv/content/38821/index.m3u8
 
-#EXTINF:-1,Сериалы СССР
-https://autopilot.catcast.tv/content/42181/index.m3u8
+#EXTINF:-1 tvg-id="AmediaPremium.ru" tvg-logo="https://i.imgur.com/UHo6cwX.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Amedia Premium (480p)
+http://ott-cdn.ucom.am/s64/index.m3u8
 
 #EXTINF:-1,Музыка Кино
 https://autopilot.catcast.tv/content/37739/index.m3u8
-
-#EXTINF:-1 group-title="All",ВСЁ ВКЛЮЧЕНО
-https://autopilot.catcast.tv/content/39161/index.m3u8
-
-#EXTINF:-1,Shot TV
-#EXTGRP:Кино
-http://persik.by/stream/0264/420211/10454.m3u8
 
 #EXTINF:-1,Music-1 Int
 https://autopilot.catcast.tv/content/37745/index.m3u8
@@ -31,29 +24,23 @@ https://autopilot.catcast.tv/content/37745/index.m3u8
 #EXTINF:-1,Music-2 Int
 https://autopilot.catcast.tv/content/37742/index.m3u8
 
-#EXTINF:-1,100% 
-https://autopilot.catcast.tv/content/40127/index.m3u8
+#EXTINF:-1 tvg-id="CityTV.bg" tvg-logo="https://i.imgur.com/lvWywUZ.png" group-title="Undefined",City TV (576p) [Not 24/7]
+https://tv.city.bg/play/tshls/citytv/index.m3u8
 
-#EXTINF:-1,Romantic&Ballads 
-https://autopilot.catcast.tv/content/39696/index.m3u8
+#EXTINF:-1 tvg-id="Evrokom.bg" tvg-logo="https://i.imgur.com/3s7qchh.png" group-title="Undefined",Evrokom (360p)
+https://live.ecomservice.bg/hls/stream.m3u8
 
-#EXTINF:-1,KBC_НАШ ROCK
-https://autopilot.catcast.tv/content/39824/index.m3u8
+#EXTINF:-1 tvg-id="LightChannel.bg" tvg-logo="https://i.imgur.com/qskVMhF.png" group-title="Undefined",Light Channel (480p) [Not 24/7]
+https://streamer1.streamhost.org/salive/GMIlcbgM/playlist.m3u8
 
-#EXTINF:-1,Планета
-https://cdn1.mobiletv.bg/T5/planeta/planeta_794613_850k.m3u8
+#EXTINF:-1 tvg-id="FOX News Now (720p)",FOX News Now (720p)
+https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
 
-#EXTINF:-1,BG DNES
-http://80.72.95.40:8088
+#EXTINF:-1 tvg-id="LoveNature.ca" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Love_Nature_TV.png/512px-Love_Nature_TV.png" group-title="Outdoor",Love Nature (1080p)
+http://bamus-eng-roku.amagi.tv/playlist.m3u8
 
-#EXTINF:-1,Bulgaria On Air
-http://edge15.cdn.bg:2006/fls/bonair.stream/playlist.m3u8
-
-#EXTINF:-1,Nostalgia BG
-https://cdn1.mobiletv.bg/T10/kanal4/kanal4_794613_850k.m3u8
-
-#EXTINF:-1,ТВ Европа
-https://cdn1.mobiletv.bg/T10/tvevropa/tvevropa_794613_850k.m3u8
+#EXTINF:-1 tvg-id="MyZenTV.fr" tvg-logo="https://i.imgur.com/fIi8o0C.png" group-title="Undefined",MyZen TV (1080p)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8
 
 #EXTINF:0,Релакс
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
