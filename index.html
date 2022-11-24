@@ -4,6 +4,7 @@
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Alex Shel</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
 
     <link
       href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap"
@@ -11,8 +12,8 @@
     />
     <style>
       html {
-        font-family: "Roboto Mono", monospace;
         background-color: #dddddd;
+        font-family: "Roboto Mono", monospace;
       }
       body {
         max-width: 40em;
@@ -33,102 +34,142 @@
         margin-top: 0.4em;
         margin-bottom: 0.2em;
       }
+      hr {
+        border: none;
+        border-top: 0.1em solid #888888;
+        margin-top: 2em;
+      }
       .image--float {
-        max-width: 100%;
+        border-style: solid;
+        border-color: #888888;
+        border-width: 0.1em;
+        max-width: 40em;
         min-width: 8em;
+        padding: 0.1em;
       }
       .thumb {
         width: 40em;
       }
     </style>
+    <link rel="stylesheet" media="print" href="print.css" />
   </head>
 
   <body>
     <h1>Alex Shel /egno/</h1>
-    <a href="#contacts">Contacts</a>
+    <p class="no-print"><a href="#contacts">Contacts</a></p>
+    <div class="wrapper">
+      <div>
+        <img class="image--float" src="images/as0013.jpg" />
+        <h2>About</h2>
+        <p>My full name is Aleksandr Shelemetev. I live in Bulgaria.</p>
+        <p>
+          I've been in IT since the 90s. I worked as a software developer, an
+          analyst, a system administrator, a DBA, a project manager. I founded
+          my outsourcing company. But I've never stopped programming.
+        </p>
+        <p>Now I work as a senior software engineer. And I love this job.</p>
+        <p>
+          I wrote a
+          <a href="https://prosql.github.io/book">Short SQL Tutorial</a>. Oh
+          yes, it's only in Russian yet. But you can find my posts about
+          database architecture and SQL query optimization on the
+          <a href="https://codingsight.com/author/alexandr-shelemetyev/"
+            >Codingsight</a
+          >
+          site.
+        </p>
+        <p>I read a lot, like to travel.</p>
+      </div>
 
-    <h2>About</h2>
+      <div>
+        <h2>Some keywords for HR</h2>
+        <p>
+          Python, Flask, Django, Celery, asyncio, Go, Golang, REST, GraphQL,
+          API, SQL, PostgreSQL, MySQL, MS SQL, TSQL, Oracle, PL/SQL, DBA,
+          RabbitMQ, Redis, Git, GitLab, DevOps, docker, k8s, kubernetes,
+          DroneCI, CI/CD, Linux, microservices.
+        </p>
+        <p>
+          I've also worked with: HTML, CSS, JavaScript, Node.js, Vue.js, Nuxt,
+          Angular, d3js, Java, Haskell, nginx, ClickHouse, S3, .NET, C++, MS
+          VBA, Delphi and Pascal
+        </p>
+        <p>
+          Domains: Billing, Customer service, Insurance, Logistics, Document
+          flow
+        </p>
+      </div>
+    </div>
 
-    <img class="image--float" src="images/as0013.jpg" />
-    <p>My full name is Aleksandr Shelemetev. I live in Bulgaria.</p>
-    <p>
-      I've been in IT since the 90s. I worked as a software developer, an
-      analyst, a system administrator, a DBA, a project manager. I founded my
-      outsourcing company. But I've never stopped programming.
-    </p>
-    <p>Now I work as a senior software engineer. And I love this job.</p>
-    <p>
-      I wrote a
-      <a href="https://prosql.github.io/book">Short SQL Tutorial</a>. Oh yes,
-      it's only in Russian yet. But you can find my posts about database
-      architecture and SQL query optimization on the
-      <a href="https://codingsight.com/author/alexandr-shelemetyev/"
-        >Codingsight</a
-      >
-      site.
-    </p>
-    <p>I read a lot, like to travel.</p>
-
-    <h2>Some keywords for HR</h2>
-    <p>
-      Python, Flask, Django, Celery, asyncio, Go, Golang, REST, GraphQL, API,
-      SQL, PostgreSQL, MySQL, MS SQL, TSQL, Oracle, PL/SQL, DBA, RabbitMQ,
-      Redis, Git, GitLab, DevOps, docker, k8s, kubernetes, DroneCI, CI/CD,
-      Linux, microservices.
-    </p>
-    <p>
-      I've also worked with: HTML, css, JavaScript, Node.js, Vue.js, Nuxt,
-      Angular, d3js, Java, Haskell, nginx, ClickHouse, S3, .NET, C++, MS VBA,
-      Delphi and Pascal (really!)
-    </p>
-    <p>
-      Domains: Billing, Customer service, Insurance, Logistics, Document flow
-    </p>
-
+    <hr />
     <h2>Last achievements</h2>
-    <h3>Acceleration of a bill calculation</h3>
-    <p>
-      The 1000(?)X speed-up with a decreased resource utilization. You can see
-      the effect below.
-    </p>
-    <p>A task queue has been processed in minutes instead about 8 hours</p>
-    <img class="image--float" src="images/img1_02.png" />
-    <p>DB CPU utilisation has become greatly less</p>
-    <img class="image--float" src="images/img1_03.png" />
-    <p>DB locks started to look insignificant</p>
-    <img class="image--float" src="images/img1_05.png" />
-
-    <h3>Acceleration of service activation</h3>
-    <p>
-      Before a client waited more than 10 minutes for the service to become
-      active:
-    </p>
-    <img class="image--float" src="images/img2_01.png" />
-    <p>Now the maximum duration of activation is 4 sec:</p>
-    <img class="image--float" src="images/img2_02.png" />
-
-    <h2>Links</h2>
-    <ul>
-      <li><a href="https://github.com/egno">GitHub</a></li>
-      <li><a href="https://www.linkedin.com/in/ashel">LinkedIn</a></li>
-      <li>[RU] <a href="https://prosql.github.io/"> Pro SQL blog</a></li>
-      <li>
-        [RU] <a href="https://prosql.github.io/book"> Short SQL Tutorial</a>
-      </li>
-    </ul>
-
-    <h2 id="contacts">Contacts</h2>
-    <p>
-      WhatsApp:
-      <a href="https://wa.me/359882251752">+359-882-251-752</a>
-    </p>
-    <p>
-      Telegram:
-      <a href="https://t.me/lsduz">@lsduz</a>
-    </p>
-    <p>
-      email:
-      <a href="mailto:ex.lxndr@gmail.com">egno@duck.com</a>
-    </p>
+    <div class="wrapper">
+      <div>
+        <h3>Acceleration of a bill calculation</h3>
+        <p>
+          The 1000(?)X speed-up with a decreased resource utilization. You can
+          see the effect below.
+        </p>
+        <p>A task queue has been processed in minutes instead about 8 hours</p>
+        <img class="image--float" src="images/img1_02.png" />
+        <p>DB CPU utilisation has become greatly less</p>
+        <img class="image--float" src="images/img1_03.png" />
+        <p>DB locks started to look insignificant</p>
+        <img class="image--float" src="images/img1_05.png" />
+      </div>
+      <div>
+        <h3>Acceleration of service activation</h3>
+        <p>
+          Before a client waited more than 10 minutes for the service to become
+          active:
+        </p>
+        <img class="image--float" src="images/img2_01.png" />
+        <p>Now the maximum duration of activation is 4 sec:</p>
+        <img class="image--float" src="images/img2_02.png" />
+      </div>
+    </div>
+    <hr />
+    <div class="wrapper">
+      <div>
+        <h2>Links</h2>
+        <ul>
+          <li>
+            GitHub:
+            <a href="https://github.com/egno">https://github.com/egno</a>
+          </li>
+          <li>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/ashel"
+              >https://www.linkedin.com/in/ashel</a
+            >
+          </li>
+          <li>
+            [RU] Pro SQL blog:
+            <a href="https://prosql.github.io/">https://prosql.github.io/</a>
+          </li>
+          <li>
+            [RU] Short SQL Tutorial:
+            <a href="https://prosql.github.io/book"
+              >https://prosql.github.io/book</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2 id="contacts">Contacts</h2>
+        <p>
+          WhatsApp:
+          <a href="https://wa.me/359882251752">+359-882-251-752</a>
+        </p>
+        <p>
+          Telegram:
+          <a href="https://t.me/lsduz">@lsduz</a>
+        </p>
+        <p>
+          email:
+          <a href="mailto:ex.lxndr@gmail.com">egno@duck.com</a>
+        </p>
+      </div>
+    </div>
   </body>
 </html>
