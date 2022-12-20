@@ -23,7 +23,7 @@
     }
 
     .wrapper {
-        column-gap: 8em;
+        column-gap: 6em;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
