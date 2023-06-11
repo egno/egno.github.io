@@ -1,10 +1,10 @@
 #EXTM3U url-tvg="http://epg.it999.ru/edem.xml.gz"
 
 #EXTINF:-1, Home video 1
-http://tadam.ga:31234
+http://flas.mooo.com:31234
 
 #EXTINF:-1, Home video 2
-http://tadam.ga:31235
+http://flas.mooo.com:31235
 
 #EXTINF:-1, Кино-1
 https://autopilot.catcast.tv/content/38617/index.m3u8
