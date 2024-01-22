@@ -24,15 +24,6 @@ https://autopilot.catcast.tv/content/37745/index.m3u8
 #EXTINF:-1,Music-2 Int
 https://autopilot.catcast.tv/content/37742/index.m3u8
 
-#EXTINF:-1 tvg-id="CityTV.bg" tvg-logo="https://i.imgur.com/lvWywUZ.png" group-title="Undefined",City TV (576p) [Not 24/7]
-https://tv.city.bg/play/tshls/citytv/index.m3u8
-
-#EXTINF:-1 tvg-id="Evrokom.bg" tvg-logo="https://i.imgur.com/3s7qchh.png" group-title="Undefined",Evrokom (360p)
-https://live.ecomservice.bg/hls/stream.m3u8
-
-#EXTINF:-1 tvg-id="LightChannel.bg" tvg-logo="https://i.imgur.com/qskVMhF.png" group-title="Undefined",Light Channel (480p) [Not 24/7]
-https://streamer1.streamhost.org/salive/GMIlcbgM/playlist.m3u8
-
 #EXTINF:-1 tvg-id="FOX News Now (720p)",FOX News Now (720p)
 https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
 
