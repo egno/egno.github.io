@@ -12,6 +12,7 @@ https://autopilot.catcast.tv/content/38617/index.m3u8
 #EXTINF:-1 tvg-id="A1.ru" tvg-logo="https://i.imgur.com/2pAHdAi.png" group-title="Series",A1
 http://31.148.48.15:80/A1/index.m3u8
 
+
 #EXTINF:-1,Музыка Кино
 https://autopilot.catcast.tv/content/37739/index.m3u8
 
@@ -20,6 +21,9 @@ https://autopilot.catcast.tv/content/37745/index.m3u8
 
 #EXTINF:-1,Music-2 Int
 https://autopilot.catcast.tv/content/37742/index.m3u8
+
+#EXTINF:-1 tvg-name="Magic TV",Magic TV
+https://bss1.neterra.tv/magictv/stream_0.m3u8
 
 #EXTINF:-1 tvg-name="City TV Ⓢ" tvg-logo="https://i.imgur.com/BjRTbrU.png" tvg-id="City.bg" group-title="Bulgaria",City TV Ⓢ
 https://tv.city.bg/play/tshls/citytv/index.m3u8
