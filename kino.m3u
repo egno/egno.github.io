@@ -7,7 +7,7 @@ http://flas.mooo.com:31234
 http://flas.mooo.com:31235
 
 #EXTINF:-1, Кино-1
-https://autopilot.catcast.tv/content/38617/index.m3u8
+http://kino-1.catcast.tv/content/38617/index.m3u8
 
 #EXTINF:-1 tvg-id="A1.ru" tvg-logo="https://i.imgur.com/2pAHdAi.png" group-title="Series",A1
 http://31.148.48.15:80/A1/index.m3u8
