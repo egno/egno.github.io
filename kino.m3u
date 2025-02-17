@@ -9,9 +9,17 @@ http://flas.mooo.com:31235
 #EXTINF:-1, Кино-1
 http://kino-1.catcast.tv/content/38617/index.m3u8
 
+#EXTINF:-1 tvg-id="RMTV.bg",RMTV (288p)
+https://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8
+
 #EXTINF:-1 tvg-id="A1.ru" tvg-logo="https://i.imgur.com/2pAHdAi.png" group-title="Series",A1
 http://31.148.48.15:80/A1/index.m3u8
 
+#EXTINF:-1 tvg-id="TVNBulgaria.bg",TVN-Bulgaria (1080p)
+https://obs.friendshipchurch.eu/tvn/mystream.m3u8
+
+#EXTINF:-1 tvg-id="DSTV.bg",DSTV (614p) [Not 24/7]
+http://46.249.95.140:8081/hls/data.m3u8
 
 #EXTINF:-1,Музыка Кино
 https://autopilot.catcast.tv/content/37739/index.m3u8
@@ -28,6 +36,8 @@ https://bss1.neterra.tv/magictv/stream_0.m3u8
 #EXTINF:-1 tvg-name="City TV Ⓢ" tvg-logo="https://i.imgur.com/BjRTbrU.png" tvg-id="City.bg" group-title="Bulgaria",City TV Ⓢ
 https://tv.city.bg/play/tshls/citytv/index.m3u8
 
+#EXTINF:-1 tvg-id="TheVoice.bg",The Voice TV (720p)
+https://bss1.neterra.tv/thevoice/thevoice.m3u8
 
 #EXTINF:-1 tvg-name="Film Detective" tvg-logo="https://i.imgur.com/4aFLH9g.png" group-title="VOD Movies (EN)",Film Detective
 https://dai.google.com/linear/hls/event/OYH9J7rZSK2fabKXWAYcfA/master.m3u8
