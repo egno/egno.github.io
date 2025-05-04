@@ -9,6 +9,18 @@ http://flas.mooo.com:31235
 #EXTINF:-1, Кино-1
 http://kino-1.catcast.tv/content/38617/index.m3u8
 
+#EXTINF:-1 tvg-id=10290 group-title="Каналы тест", Советское кино
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+https://mhd128.iptv2022.com/p/bznryQL-NlkMBcN8yiVf5w,1746392408/streaming/sovietmovs/324/1/tracks-v5a1/mono.m3u8
+
+#EXTINF:-1 tvg-id=10287 group-title="Каналы тест", Классика кино
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+https://mhd128.iptv2022.com/p/Zk2tNV8vLrdQWjN3iFzJmA,1746392408/streaming/k_kino/324/1/index.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Peers-test-(VPN)" ,Мосфильм. Золотая коллекция
+http://api.peers.tv/timeshift/mosfilm_zolotaya_kollektsiya_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NDY0MjgyNTgsImlhdCI6MTc0NjM0MTg1OCwiY2lkIjo2LCJ1aWQiOjkxMzYyMjg1OCwicmVnIjpmYWxzZSwiaXAiOjMxMTMyMTI5NTcsImFkdWx0IjpmYWxzZX0.zgKlVi72DCAozDLcQyPLSM6RYZvamSn76gmkDcKgOR0&offset=10
+
+
 #EXTINF:-1 tvg-id="RMTV.bg",RMTV (288p)
 https://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8
 
