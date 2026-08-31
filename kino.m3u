@@ -198,3 +198,75 @@ http://stream.mcquack.net/311/index.m3u8
 
 #EXTINF:-1 tvg-id="SilkWayCinema.kz@SD",Silk Way Cinema (1080p)
 https://stream.qazcdn.net/ex6r514/silkwaycinema/index.m3u8
+
+#EXTINF:-1 group-title="Детские",Союзмультфильм
+http://194.26.229.213/souzmultfilm/index.m3u8
+
+#EXTINF:-1 group-title="Кинозалы",Retrovision
+https://lbgo.bozztv.com/07/ushba-rvision/index.m3u8
+
+#EXTINF:-1 group-title="Кинозалы",Retrovision Кинопанорама
+https://lbgo.bozztv.com/07/ushba-rvisionkinopanorama/index.m3u8
+
+#EXTINF:-1 group-title="Кинозалы",Retrovision Movies
+https://lbgo.bozztv.com/07/ushba-rvisionmovies/index.m3u8
+
+#EXTINF:-1 group-title="Кинозалы",Retrovision Classic
+https://lbgo.bozztv.com/07/ushba-rvisionclassic/index.m3u8
+
+#EXTINF:-1 group-title="Кинозалы",Кинозалы 1
+https://lbgo.bozztv.com/07/ushba82/index.m3u8
+
+#EXTINF:-1 group-title="Кинозалы",Кинозалы 2
+https://lbgo.bozztv.com/07/ushba-rfilrms-0/index.m3u8
+
+#EXTINF:-1 group-title="Кинозалы",Кинозалы 3
+https://lbgo.bozztv.com/07/ushba-rfilrms-a/index.m3u8
+
+#EXTINF:-1 group-title="Кинозалы",Кинозалы 4
+https://lbgo.bozztv.com/07/ushba-rfilrms-b/index.m3u8
+
+#EXTINF:-1 group-title="Кинозалы",Кинозалы 5
+https://lbgo.bozztv.com/07/ushba-rfilrms-c/index.m3u8
+
+#EXTINF:-1 group-title="Кинозалы",Кинозалы 6
+https://lbgo.bozztv.com/07/ushba-rfilrms-d/index.m3u8
+
+#EXTINF:-1 group-title="Кинозалы",Кинозалы 7
+https://lbgo.bozztv.com/07/ushba-rfilrms-e/index.m3u8
+
+#EXTINF:-1 group-title="Кинозалы",Кинозалы 8
+https://lbgo.bozztv.com/07/ushba-rfilrms-g/index.m3u8
+
+#EXTINF:-1 group-title="Кинозалы",Кинозалы 9
+https://lbgo.bozztv.com/07/ushba-rfilrms-i/index.m3u8
+
+#EXTINF:-1 group-title="Кинозалы",Кинозалы 10
+https://lbgo.bozztv.com/07/ushba-rfilrms-p/index.m3u8
+
+#EXTINF:-1 group-title="Кинозалы",Кинозалы 11
+https://lbgo.bozztv.com/07/ushba-rfilrms-v/index.m3u8
+
+#EXTINF:-1 group-title="Кинозалы",Кинозалы 12
+https://lbgo.bozztv.com/07/ushba-rfilrms-z/index.m3u8
+
+#EXTINF:-1 group-title="Кинозалы",Кинозалы 13
+https://lbgo.bozztv.com/07/ushba64/index.m3u8
+
+#EXTINF:-1 group-title="Кинозалы",Кинозалы 14
+https://lbgo.bozztv.com/07/ushba65/index.m3u8
+
+#EXTINF:-1 group-title="Кинозалы Kinowalk",Alex.Films
+https://kinowalk.hopto.org/alex.films_live
+
+#EXTINF:-1 group-title="Кинозалы Kinowalk",Назад в СССР
+https://kinowalk.hopto.org/backtotheussr_live
+
+#EXTINF:-1 group-title="Кинозалы Kinowalk",VHS кино
+https://kinowalk.hopto.org/and7610_live
+
+#EXTINF:-1 group-title="Кинозалы Kinowalk",Cinema Time
+https://kinowalk.hopto.org/cinematime_live
+
+#EXTINF:-1 group-title="Кинозалы Kinowalk",Kinofon
+https://kinowalk.hopto.org/kinofon_live
