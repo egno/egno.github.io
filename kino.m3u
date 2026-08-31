@@ -58,3 +58,107 @@ https://dash2.antik.sk/live/test_film_life_atktv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="FilmUADrama.ua@SD",FilmUADrama (1080p)
 http://88.99.215.227/FilmUADrama/index.m3u8
+
+#EXTINF:-1 tvg-id="Domkino.ru@SD",Dom kino (576p)
+http://stream.mcquack.net/236/index.m3u8
+
+#EXTINF:-1 tvg-id="DomkinoPremium.ru@HD",Dom kino Premium HD (1080p)
+http://stream.mcquack.net/108/index.m3u8
+
+#EXTINF:-1 tvg-id="KinoTV.ru@HD",Kino TV HD (1080p)
+http://176.118.197.101/KinoTvHD/playlist.m3u8
+
+#EXTINF:-1 tvg-id="KinoHit.ru@SD",KinoHit (576p)
+http://stream.mcquack.net/126/index.m3u8
+
+#EXTINF:-1 tvg-id="Kinokomedija.ru@SD",Kinokomedija (576p)
+http://stream.mcquack.net/265/index.m3u8
+
+#EXTINF:-1 tvg-id="Kinomix.ru@SD",Kinomix (576p)
+http://93.170.254.17/Kinomiks/index.m3u8
+
+#EXTINF:-1 tvg-id="Kinopokaz.ru@HD",Kinopokaz HD (1080p)
+http://hls127.freeott.top:8080/Kinopokaz_HD/video.m3u8
+
+#EXTINF:-1 tvg-id="Kinopremyera.ru@SD",Kinopremyera (1080p)
+http://5.188.159.128:8070/KINOPREMIERA/index.m3u8
+
+#EXTINF:-1 tvg-id="Kinosemja.ru@SD",Kinosemja (576p)
+http://stream.mcquack.net/170/index.m3u8
+
+#EXTINF:-1 tvg-id="Kinoseriya.ru@SD",Kinoseriya (1080p)
+http://hls127.freeott.top:8080/Kinoseriya_HD/video.m3u8
+
+#EXTINF:-1 tvg-id="Kinosvidanie.ru@SD",Kinosvidanie (576p)
+http://5.188.159.128:8070/kinosvidanie/index.m3u8
+
+#EXTINF:-1 tvg-id="Kinouzhas.ru@SD",Kinouzhas (576p)
+http://stream.mcquack.net/278/index.m3u8
+
+#EXTINF:-1 tvg-id="NasheLubimoeKino.ru@SD",Nashe Lubimoe Kino (576p)
+http://hls127.freeott.top:8080/Lubimoe_Kino/video.m3u8
+
+#EXTINF:-1 tvg-id="NasheNovoeKino.ru@SD",Nashe Novoe Kino (1080p)
+http://hls127.freeott.top:8080/Nashe_Novoe_Kino_HD/video.m3u8
+
+#EXTINF:-1 tvg-id="RodnoeKino.ru@SD",Rodnoe Kino (576p)
+http://stream.mcquack.net/242/index.m3u8
+
+#EXTINF:-1 tvg-id="Nostalgia.ru@SD",Nostalgia (576p)
+http://hls127.freeott.top:8080/Nostalgiya/video.m3u8
+
+#EXTINF:-1 tvg-id="Evrokino.ru@HD",Evrokino HD (1080p)
+http://stream.mcquack.net/385/index.m3u8
+
+#EXTINF:-1 tvg-id="IndiyskoyeKino.ru@SD",Indiyskoye Kino (576p)
+http://188.113.190.12/329/index.m3u8
+
+#EXTINF:-1 tvg-id="Muzhskoekino.ru@SD",Muzhskoe kino (576p)
+http://stream.mcquack.net/107/index.m3u8
+
+#EXTINF:-1 tvg-id="Russkiyroman.ru@SD",Russkiy roman (576p)
+http://stream.mcquack.net/266/index.m3u8
+
+#EXTINF:-1 tvg-id="vijuTV1000russkoe.ru@SD",viju TV1000 russkoe
+https://stream8.cinerama.uz/1058/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="vijuPlusMegahit.ru@HD",viju+ Megahit HD (1080p)
+http://stream.mcquack.net/200/index.m3u8
+
+#EXTINF:-1 tvg-id="vijuPlusPremiere.ru@HD",viju+ Premiere HD (1080p)
+http://stream.mcquack.net/202/index.m3u8
+
+#EXTINF:-1 tvg-id="Kino1.ua@SD",Kino 1 (1080p)
+http://stream.mcquack.net/395/index.m3u8
+
+#EXTINF:-1 tvg-id="Kino2.ua@SD",Kino 2 (1080p)
+http://stream.mcquack.net/465/index.m3u8
+
+#EXTINF:-1 tvg-id="Kinoliving.ua@SD",Kinoliving (1080p)
+http://stream.mcquack.net/445/index.m3u8
+
+#EXTINF:-1 tvg-id="Kinowood.ua@SD",Kinowood (1080p)
+http://stream.mcquack.net/446/index.m3u8
+
+#EXTINF:-1 tvg-id="NasheLubimoeKinoUkraine.ua@SD",Nashe Lubimoe Kino Ukraine (1080p)
+http://stream.mcquack.net/456/index.m3u8
+
+#EXTINF:-1 tvg-id="ViasatKino.ua@SD",Viasat Kino
+#EXTVLCOPT:http-referrer=http://live.tvstitch.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ni90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5NzA2MyZzdD1IMENxaGExNldkUTV0YWFSaW04QWlR&master=104
+
+#EXTINF:-1 tvg-id="ViasatKinoAction.ua@SD",Viasat Kino Action
+#EXTVLCOPT:http-referrer=http://live.tvstitch.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjUxOjcwMDAvY2g0Ny90cmFja3MtdjFhMS9tb25vLm0zdTg%2FbGl2ZT0xJmlwPTE3OC4xMzYuNDIuMjIwJmlkPTk0ODg2NSZzZWNyZXQ9bjF1N3VpMDYmc3NsPTEmMjF5bz0wJmU9MTc5MDU5OTA0MiZzdD1tVWRSQVFvbDY4SHVMTEc2MENpeTFn&master=105
+
+#EXTINF:-1 tvg-id="ViasatKinoComedy.ua@SD",Viasat Kino Comedy
+#EXTVLCOPT:http-referrer=http://live.tvstitch.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDQvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA1OTk4Mzcmc3Q9UzRPS1VZemNocmREQWhnSTJkTDJ5QQ%3D%3D&master=249
+
+#EXTINF:-1 tvg-id="ViasatKinoWorld.ua@SD",Viasat Kino World
+#EXTVLCOPT:http-referrer=http://live.tvstitch.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDgvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA1OTk5NDcmc3Q9N3ROblpCZy02WTBka1RuekRIZjU0QQ%3D%3D&master=102
