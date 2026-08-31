@@ -162,3 +162,39 @@ http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI
 #EXTVLCOPT:http-referrer=http://live.tvstitch.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
 http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDgvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA1OTk5NDcmc3Q9N3ROblpCZy02WTBka1RuekRIZjU0QQ%3D%3D&master=102
+
+#EXTINF:-1 tvg-id="AmediaHit.ru@SD",Amedia Hit (1080p)
+http://stream.mcquack.net/162/index.m3u8
+
+#EXTINF:-1 tvg-id="KapitanFantastika.ru@SD",Kapitan Fantastika (1080p)
+http://stream.mcquack.net/144/index.m3u8
+
+#EXTINF:-1 tvg-id="Premialnoe.ru@HD",Premialnoe HD (1080p)
+http://stream.mcquack.net/421/index.m3u8
+
+#EXTINF:-1 tvg-id="Priklyucheniya.ru@HD",Priklyucheniya HD (1080p)
+http://stream.mcquack.net/198/index.m3u8
+
+#EXTINF:-1 tvg-id="Ostrosyuzhetnoye.ru@HD",Ostrosyuzhetnoye HD (1080p)
+http://stream.mcquack.net/214/index.m3u8
+
+#EXTINF:-1 tvg-id="Komediynoe.ru@HD",Komediynoe HD (1080p)
+http://stream.mcquack.net/74/index.m3u8
+
+#EXTINF:-1 tvg-id="Dushevnoe.ru@HD",Dushevnoe HD (1080p)
+http://stream.mcquack.net/213/index.m3u8
+
+#EXTINF:-1 tvg-id="Shokiruyushchee.ru@HD",Shokiruyushchee HD (1080p)
+http://stream.mcquack.net/75/index.m3u8
+
+#EXTINF:-1 tvg-id="vijuPlusComedy.ru@HD",viju+ Comedy HD (1080p)
+http://stream.mcquack.net/201/index.m3u8
+
+#EXTINF:-1 tvg-id="vijuPlusPlanet.ru@HD",viju+ Planet HD (1080p)
+http://stream.mcquack.net/240/index.m3u8
+
+#EXTINF:-1 tvg-id="vijuPlusSerial.ru@HD",viju+ Serial HD (1080p)
+http://stream.mcquack.net/311/index.m3u8
+
+#EXTINF:-1 tvg-id="SilkWayCinema.kz@SD",Silk Way Cinema (1080p)
+https://stream.qazcdn.net/ex6r514/silkwaycinema/index.m3u8
