@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Script to fetch and merge IPTV streams from community sources
-# Filters for Russian/Soviet cinema and validates links
+# Improved with robust timeout and error handling
 
 set -e
 
@@ -16,22 +16,7 @@ RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
-NC='\033[0m' # No Color
-
-# Spinner function
-spinner() {
-    local pid=$1
-    local delay=0.1
-    local frames=( '⠋' '⠙' '⠹' '⠸' '⠼' '⠴' '⠦' '⠧' '⠇' '⠏' )
-
-    while kill -0 $pid 2>/dev/null; do
-        for frame in "${frames[@]}"; do
-            echo -ne "\r${BLUE}${frame}${NC} $2"
-            sleep $delay
-        done
-    done
-    wait $pid
-}
+NC='\033[0m'
 
 # Progress function
 progress() {
@@ -55,18 +40,22 @@ trap "rm -rf $TEMP_DIR" EXIT
 echo -e "${BLUE}🔍 Fetching community IPTV sources...${NC}"
 echo ""
 
-# Fetch from main IPTV repository
-echo -e "${BLUE}📥 Downloading from iptv-org/iptv (Russian channels)...${NC}"
-curl -s -L "https://raw.githubusercontent.com/iptv-org/iptv/master/channels/ru.m3u" -o "${TEMP_DIR}/ru.m3u" 2>&1 | while read line; do
-    if [[ "$line" =~ [0-9]+ ]]; then
-        echo -ne "\r${BLUE}   Downloading... $line${NC}"
-    fi
-done
-echo -e "\r${GREEN}✓${NC} Downloaded successfully                  "
+# Fetch from main IPTV repository with timeout
+echo -e "${BLUE}📥 Downloading Russian channels list (timeout: 15s)...${NC}"
 
-if [ ! -s "${TEMP_DIR}/ru.m3u" ]; then
-    echo -e "${YELLOW}⚠️  ru.m3u is empty or failed to download${NC}"
+if curl -m 15 -L --connect-timeout 5 "https://raw.githubusercontent.com/iptv-org/iptv/master/channels/ru.m3u" -o "${TEMP_DIR}/ru.m3u" 2>/dev/null; then
+    if [ -s "${TEMP_DIR}/ru.m3u" ]; then
+        echo -e "\r${GREEN}✓${NC} Downloaded successfully ($(wc -l < "${TEMP_DIR}/ru.m3u") lines)             "
+    else
+        echo -e "\r${YELLOW}⚠️  Downloaded but file is empty${NC}                    "
+        echo "" > "${TEMP_DIR}/ru.m3u"
+    fi
+else
+    echo -e "\r${YELLOW}⚠️  Download timed out or failed${NC}                    "
+    echo "" > "${TEMP_DIR}/ru.m3u"
 fi
+
+echo ""
 
 # Initialize merged file with header
 echo "$HEADER" > "$MERGED_FILE"
@@ -82,19 +71,17 @@ echo ""
 # Function to extract cinema-related keywords
 is_cinema_related() {
     local line="$1"
-    echo "$line" | grep -iE "(кино|cinema|film|фильм|кинема|советск|russian cinema|классик|ностальги|домашний)" > /dev/null 2>&1
+    echo "$line" | grep -iE "(кино|cinema|film|фильм|советск|russian cinema|классик|ностальги|домашний)" > /dev/null 2>&1
 }
 
 # Extract and add cinema channels from fetched sources
-echo -e "${BLUE}🎬 Extracting Russian cinema channels...${NC}"
+if [ -s "${TEMP_DIR}/ru.m3u" ]; then
+    echo -e "${BLUE}🎬 Extracting Russian cinema channels...${NC}"
 
-cinema_count=0
-if [ -f "${TEMP_DIR}/ru.m3u" ]; then
-    local_file="${TEMP_DIR}/ru.m3u"
-    total_lines=$(wc -l < "$local_file")
+    cinema_count=0
+    total_lines=$(wc -l < "${TEMP_DIR}/ru.m3u")
     line_num=0
 
-    # Extract relevant entries (EXTINF lines followed by URLs)
     while IFS= read -r line; do
         ((line_num++))
 
@@ -104,9 +91,8 @@ if [ -f "${TEMP_DIR}/ru.m3u" ]; then
         fi
 
         if [[ "$line" =~ ^#EXTINF ]]; then
-            current_extinf="$line"
             if is_cinema_related "$line"; then
-                echo "$current_extinf" >> "$MERGED_FILE"
+                echo "$line" >> "$MERGED_FILE"
                 ((cinema_count++))
                 # Read next line (should be the URL)
                 if IFS= read -r url_line; then
@@ -117,18 +103,21 @@ if [ -f "${TEMP_DIR}/ru.m3u" ]; then
                 fi
             fi
         fi
-    done < "$local_file"
+    done < "${TEMP_DIR}/ru.m3u"
 
-    echo -e "\r${GREEN}✓${NC} Found $cinema_count cinema-related channels         "
+    echo -e "\r${GREEN}✓${NC} Found $cinema_count cinema channels                    "
 else
-    echo -e "${YELLOW}⚠️  Source file not found${NC}"
+    echo -e "${YELLOW}⚠️  No source file available${NC}"
+    cinema_count=0
 fi
 echo ""
 
-# Remove duplicates (keep first occurrence)
+# Remove duplicates
 echo -e "${BLUE}🧹 Removing duplicates...${NC}"
-python3 << PYTHON
-import re
+export MERGED_FILE_PATH="$MERGED_FILE"
+python3 << 'PYTHON'
+import sys
+import os
 
 def clean_m3u(input_file, output_file):
     with open(input_file, 'r', encoding='utf-8', errors='ignore') as f:
@@ -136,72 +125,77 @@ def clean_m3u(input_file, output_file):
 
     seen_urls = set()
     cleaned = []
-
     i = 0
-    while i < len(lines):
-        if lines[i].startswith('#EXTM3U'):
-            cleaned.append(lines[i])
-        elif lines[i].startswith('#EXTINF'):
-            # Check if next line is a URL
-            if i + 1 < len(lines) and lines[i + 1].strip().startswith(('http://', 'https://')):
+    n = len(lines)
+
+    while i < n:
+        line = lines[i]
+
+        if line.startswith('#EXTM3U'):
+            cleaned.append(line)
+            i += 1
+        elif line.startswith('#EXTINF'):
+            if i + 1 < n and lines[i + 1].strip().startswith(('http://', 'https://')):
                 url = lines[i + 1].strip()
                 if url not in seen_urls:
                     seen_urls.add(url)
-                    cleaned.append(lines[i])
+                    cleaned.append(line)
                     cleaned.append(lines[i + 1])
-                    if i + 2 < len(lines) and lines[i + 2].strip() == '':
-                        cleaned.append(lines[i + 2])
-                        i += 3
-                    else:
-                        cleaned.append('\n')
-                        i += 2
-                else:
-                    i += 2
+                    cleaned.append('\n')
+                i += 2
+                if i < n and lines[i].strip() == '':
+                    i += 1
             else:
                 i += 1
-        elif lines[i].strip():
-            cleaned.append(lines[i])
-            i += 1
         else:
+            if line.strip():
+                cleaned.append(line)
             i += 1
 
     with open(output_file, 'w', encoding='utf-8') as f:
         f.writelines(cleaned)
 
-clean_m3u('$MERGED_FILE', '${TEMP_DIR}/deduped.m3u')
+try:
+    input_path = os.environ['MERGED_FILE_PATH']
+    clean_m3u(input_path, input_path + '.clean')
+except Exception as e:
+    print(f"Error: {e}", file=sys.stderr)
+    sys.exit(1)
 PYTHON
 
-mv "${TEMP_DIR}/deduped.m3u" "$MERGED_FILE"
-
-# Count streams
-STREAM_COUNT=$(grep -c "^https\?://" "$MERGED_FILE" || echo 0)
-NEW_COUNT=$((STREAM_COUNT - EXISTING))
+if [ -f "${TEMP_DIR}/merged.m3u.clean" ]; then
+    mv "${TEMP_DIR}/merged.m3u.clean" "$MERGED_FILE"
+fi
 
 echo -e "${GREEN}✓${NC} Deduplication complete"
 echo ""
+
+# Count final streams
+STREAM_COUNT=$(grep -c "^https\?://" "$MERGED_FILE" || echo 0)
+NEW_COUNT=$((STREAM_COUNT - EXISTING))
+
 echo -e "${GREEN}═══════════════════════════════════════${NC}"
-echo -e "  Total streams in merged file: ${GREEN}$STREAM_COUNT${NC}"
-echo -e "  Existing streams: ${BLUE}$EXISTING${NC}"
-echo -e "  New streams: ${YELLOW}$NEW_COUNT${NC}"
+echo -e "  Total streams: ${GREEN}$STREAM_COUNT${NC}"
+echo -e "  Existing: ${BLUE}$EXISTING${NC}  |  New: ${YELLOW}$NEW_COUNT${NC}"
 echo -e "${GREEN}═══════════════════════════════════════${NC}"
 echo ""
-echo "Would you like to:"
-echo "  ${GREEN}1)${NC} Preview the new file"
-echo "  ${GREEN}2)${NC} Test all links"
-echo "  ${GREEN}3)${NC} Replace current kino.m3u"
-echo "  ${GREEN}4)${NC} Cancel"
+echo "Choose action:"
+echo -e "  ${GREEN}1)${NC} Preview new file"
+echo -e "  ${GREEN}2)${NC} Test all links (slow!)"
+echo -e "  ${GREEN}3)${NC} Replace kino.m3u"
+echo -e "  ${GREEN}4)${NC} Cancel"
 echo ""
-read -p "Choose [1-4]: " choice
+read -p "Choice [1-4]: " choice
 
 case $choice in
     1)
         echo ""
-        echo -e "${BLUE}Preview (first 50 lines):${NC}"
-        head -50 "$MERGED_FILE"
+        echo -e "${BLUE}Preview (first 40 entries):${NC}"
+        head -n 40 "$MERGED_FILE"
         ;;
     2)
         echo ""
-        echo -e "${BLUE}Testing links (this may take a while)...${NC}"
+        echo -e "${BLUE}Testing links (max 3s each)...${NC}"
         working=0
         broken=0
         total=$(grep -c "^https\?://" "$MERGED_FILE" || echo 0)
@@ -223,15 +217,17 @@ case $choice in
         echo ""
         echo ""
         echo -e "${GREEN}═══════════════════════════════════════${NC}"
-        echo -e "  Results: ${GREEN}$working working${NC}, ${RED}$broken broken${NC}"
-        echo -e "  Success rate: $((working * 100 / total))%"
+        echo -e "  ${GREEN}✓ Working${NC}: $working  |  ${RED}✗ Broken${NC}: $broken"
+        if [ $total -gt 0 ]; then
+            echo -e "  Success rate: $((working * 100 / total))%"
+        fi
         echo -e "${GREEN}═══════════════════════════════════════${NC}"
         ;;
     3)
         cp "$MERGED_FILE" "$M3U_FILE"
         echo -e "${GREEN}✅ kino.m3u updated!${NC}"
         echo ""
-        echo -e "Run: ${YELLOW}git add kino.m3u && git commit -m 'Update streams from community IPTV sources'${NC}"
+        echo -e "Next: ${YELLOW}git add kino.m3u && git commit -m 'Update: add X new streams'${NC}"
         ;;
     4)
         echo "Cancelled"
