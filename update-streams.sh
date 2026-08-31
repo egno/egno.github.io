@@ -43,7 +43,7 @@ echo ""
 # Fetch from main IPTV repository with timeout
 echo -e "${BLUE}📥 Downloading Russian channels list (timeout: 15s)...${NC}"
 
-if curl -m 15 -L --connect-timeout 5 "https://raw.githubusercontent.com/iptv-org/iptv/master/channels/ru.m3u" -o "${TEMP_DIR}/ru.m3u" 2>/dev/null; then
+if curl -m 15 -L --connect-timeout 5 "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru.m3u" -o "${TEMP_DIR}/ru.m3u" 2>/dev/null; then
     if [ -s "${TEMP_DIR}/ru.m3u" ]; then
         echo -e "\r${GREEN}✓${NC} Downloaded successfully ($(wc -l < "${TEMP_DIR}/ru.m3u") lines)             "
     else
