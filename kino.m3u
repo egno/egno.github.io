@@ -36,3 +36,18 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex
 
 #EXTINF:0,Релакс
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
+
+#EXTINF:-1 tvg-id="Cinema.ru@SD",Cinema
+https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="MosfilmGoldCollection.ru@SD" group-title="Каналы тест",Mosfilm Gold Collection (576p)
+http://hls127.freeott.top:8080/Mosfilm/video.m3u8
+
+#EXTINF:-1 tvg-id="Retro.ru@SD",Retro (576p)
+http://stream.mcquack.net/191/index.m3u8
+
+#EXTINF:-1 tvg-id="StarCinema.ru@SD",Star Cinema
+https://dash2.antik.sk/live/test_star_cinema_atktv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="KinoTV.ru@SD",КИНОТВ
+https://vod.tuva.ru/kinotv/index.m3u8
