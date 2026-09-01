@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz"
+#EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz,https://i.mjh.nz/Plex/us.xml.gz"
 
 # ===== Cinema (Soviet Classic) =====
 
@@ -310,7 +310,7 @@ http://212.70.131.37:8000/play/a08b
 
 # ===== Cinema (International) =====
 
-#EXTINF:-1 tvg-id="24HourFreeMovies.us@SD" tvg-logo="https://i.imgur.com/iSVnzR1.png" group-title="MOVIES",24 Hour Free Movies (720p)
+#EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-5fd115bab7ef8d002dcf181d" tvg-logo="https://i.imgur.com/iSVnzR1.png" group-title="MOVIES",24 Hour Free Movies (720p)
 https://d1j2u714xk898n.cloudfront.net/scheduler/scheduleMaster/145.m3u8
 
 #EXTINF:-1 tvg-id="30ATVClassicMovies.us@SD" tvg-logo="https://babaktv.com/wp-content/uploads/2023/09/30A-Classi-Movies.jpeg" group-title="MOVIES",30A TV Classic Movies (720p)
@@ -325,16 +325,16 @@ http://nmk.ioapk.com:5050/4gtv-live069/index.m3u8
 #EXTINF:-1 tvg-id="ClassicMoviesChannel.us@SD" tvg-logo="https://i.imgur.com/pQJxov2.png" group-title="MOVIES",Classic Movies Channel
 https://jmp2.uk/plu-561c5b0dada51f8004c4d855.m3u8
 
-#EXTINF:-1 tvg-id="FilmRiseWestern.us@SD" tvg-logo="https://i.imgur.com/8j2npVc.png" group-title="MOVIES",FilmRise Westerns (720p)
+#EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-6449369eb3ff17382cae57fd" tvg-logo="https://i.imgur.com/8j2npVc.png" group-title="MOVIES",FilmRise Westerns (720p)
 https://dz05z8iljgvbe.cloudfront.net/master.m3u8
 
 #EXTINF:-1 tvg-id="FXMovieChannel.us@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/FXM_Logo.svg/960px-FXM_Logo.svg.png" group-title="MOVIES",FX Movie Channel HD (1080p)
 https://sra72yz.s.gy/FX_MOVIE_CHANNEL_US.m3u8
 
-#EXTINF:-1 tvg-id="GravitasMovies.us@SD" tvg-logo="https://i.imgur.com/H2hD4vT.png" group-title="MOVIES",Gravitas Movies (1080p)
+#EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-5efe1de7e0b3f5003f5d9f8e" tvg-logo="https://i.imgur.com/H2hD4vT.png" group-title="MOVIES",Gravitas Movies (1080p)
 https://d6dg3ebeih71x.cloudfront.net/Gravitas_Movies.m3u8
 
-#EXTINF:-1 tvg-id="GrjngoWesternMovies.de@SD" tvg-logo="https://i.imgur.com/wFqhK3p.png" group-title="MOVIES",Grjngo Western Movies (720p)
+#EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-63489a771159f6a5ce819b7b" tvg-logo="https://i.imgur.com/wFqhK3p.png" group-title="MOVIES",Grjngo Western Movies (720p)
 https://amogonetworx-grjngo-3-dk.samsung.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="HallmarkMoviesMore.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/29af70d1-d3ba-4a16-bc4d-bd99e7e7def4/hallmark-movies-and-more_color.png" group-title="MOVIES",Hallmark Movies & More (1080p)
@@ -343,10 +343,10 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 #EXTINF:-1 tvg-id="IFC.us@East" tvg-logo="https://i.imgur.com/bQdkyF9.png" group-title="MOVIES",IFC (1080p)
 http://23.237.104.106:8080/USA_IFC/index.m3u8
 
-#EXTINF:-1 tvg-id="LifetimeMovies.us@East" tvg-logo="https://i.imgur.com/BWmqYTO.png" group-title="MOVIES",Lifetime Movies (1080p)
+#EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-680adc83ea62ac6a05a626e6" tvg-logo="https://i.imgur.com/BWmqYTO.png" group-title="MOVIES",Lifetime Movies (1080p)
 http://23.237.104.106:8080/USA_LMN/index.m3u8
 
-#EXTINF:-1 tvg-id="MaverickBlackCinema.us@SD" tvg-logo="https://images.fubo.tv/station_logos/maverick_black_cinema_c.png" group-title="MOVIES",Maverick Black Cinema (1080p)
+#EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-5ef4e1b40d9ad000423c4430" tvg-logo="https://images.fubo.tv/station_logos/maverick_black_cinema_c.png" group-title="MOVIES",Maverick Black Cinema (1080p)
 https://maverick-maverick-black-cinema-3-us.roku.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="MoreMax.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/MoreMax_Logo.svg/960px-MoreMax_Logo.svg.png" group-title="MOVIES",MoreMax (1080p)
@@ -358,8 +358,8 @@ https://shd-amg-fast.edgenextcdn.net/tx011/playlist.m3u8
 #EXTINF:-1 tvg-id="MoviesThriller.sa@SD" tvg-logo="https://i.imgur.com/JWihdcl.png" group-title="MOVIES",Movies Thriller (1080p)
 https://shd-amg-fast.edgenextcdn.net/tx012/playlist.m3u8
 
-#EXTINF:-1 tvg-id="MyTimeMovieNetwork.uk@SD" tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="MOVIES",MyTime Movie Network (1080p)
+#EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-644875d7af92c31f4a190bc2" tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="MOVIES",MyTime Movie Network (1080p)
 https://appletree-mytimeuk-rakuten.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="OuterSphere.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/f162df8b-6532-43fe-9202-83a658090651/OuterSphere_1500x1000_Logo_Dark_-_Chris_Connors__1_.png" groups="MOVIES|DRAMA",OuterSphere (1080p)
+#EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-641496bf238e21f260e7844a" tvg-logo="https://provider-static.plex.tv/epg/cms/production/f162df8b-6532-43fe-9202-83a658090651/OuterSphere_1500x1000_Logo_Dark_-_Chris_Connors__1_.png" groups="MOVIES|DRAMA",OuterSphere (1080p)
 https://d3o593mz1glx8d.cloudfront.net/OuterSphere_US.m3u8
