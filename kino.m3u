@@ -70,9 +70,6 @@ http://stream.mcquack.net/364/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://stream.mcquack.net/73/index.m3u8
 
-#EXTINF:-1 tvg-id="Cinema.ru@SD",Cinema
-https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8
-
 #EXTINF:-1 group-title="Кинозалы Kinowalk",Cinema Time
 https://kinowalk.hopto.org/cinematime_live
 
@@ -133,9 +130,6 @@ http://hls127.freeott.top:8080/Kinoseriya_HD/video.m3u8
 
 #EXTINF:-1 tvg-id="Kinosvidanie.ru@SD",Kinosvidanie (576p)
 http://5.188.159.128:8070/kinosvidanie/index.m3u8
-
-#EXTINF:-1 tvg-id="Kinoteatr.uz@SD" tvg-logo="https://i.imgur.com/emH1BgC.png" group-title="Movies",Kinoteatr (1080p)
-https://stream8.cinerama.uz/1009/tracks-v1a1/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Kinouzhas.ru@SD",Kinouzhas (576p)
 http://stream.mcquack.net/278/index.m3u8
@@ -208,9 +202,6 @@ https://dash2.antik.sk/live/test_star_cinema_atktv/playlist.m3u8
 
 #EXTINF:-1 group-title="Кинозалы Kinowalk",VHS кино
 https://kinowalk.hopto.org/and7610_live
-
-#EXTINF:-1 tvg-id="vijuTV1000russkoe.ru@SD",viju TV1000 russkoe
-https://stream8.cinerama.uz/1058/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="vijuPlusComedy.ru@HD",viju+ Comedy HD (1080p)
 http://stream.mcquack.net/201/index.m3u8
