@@ -303,47 +303,17 @@ https://d1j2u714xk898n.cloudfront.net/scheduler/scheduleMaster/145.m3u8
 #EXTINF:-1 tvg-id="30ATVClassicMovies.us@SD" tvg-logo="https://babaktv.com/wp-content/uploads/2023/09/30A-Classi-Movies.jpeg" group-title="Movies",30A TV Classic Movies (720p)
 https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8
 
-#EXTINF:-1 tvg-id="DUST.us@SD" tvg-logo="https://i.imgur.com/FxYhME9.png" group-title="Movies",Alien Nation by DUST (1080p)
-https://dqi7ayt2o24fn.cloudfront.net/playlist.m3u8
-
 #EXTINF:-1 tvg-id="ARTFLIXMovieClassics.us@SD" tvg-logo="https://i.imgur.com/5pOZQB4.png" group-title="Classic;Movies",Artflix Movie Classics (720p)
 https://amogonetworx-artflix-1-nl.samsung.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="CinemaWorld.my@SD" tvg-logo="https://i.imgur.com/D2qNVZ7.png" group-title="Movies",CinemaWorld (720p)
 http://nmk.ioapk.com:5050/4gtv-live069/index.m3u8
 
-#EXTINF:-1 tvg-id="CineActionbyPlutoTV.de@FR" tvg-logo="https://images.pluto.tv/channels/5f8ed1ff5c39700007e2204a/colorLogoPNG_1752228138963.png" group-title="Movies",Ciné Action by Pluto TV
-https://jmp2.uk/plu-5f8ed1ff5c39700007e2204a.m3u8
-
-#EXTINF:-1 tvg-id="CinedAsiebyPlutoTV.de@FR" tvg-logo="https://images.pluto.tv/channels/62f3e2d000418d00070f7dbc/colorLogoPNG_1751272759694.png" group-title="Movies",Ciné d'Asie by Pluto TV
-https://jmp2.uk/plu-62f3e2d000418d00070f7dbc.m3u8
-
-#EXTINF:-1 tvg-id="CineHorreurbyPlutoTV.de@FR" tvg-logo="https://images.pluto.tv/channels/66e1978babec540008ce41ac/colorLogoPNG_1751272165674.png" group-title="Movies",Ciné Horreur by Pluto TV
-https://jmp2.uk/plu-66e1978babec540008ce41ac.m3u8
-
-#EXTINF:-1 tvg-id="CineRomancebyPlutoTV.de@FR" tvg-logo="https://images.pluto.tv/channels/60812fc8539963000707d1e1/colorLogoPNG_1775048649580.png" group-title="Movies",Ciné Romance by Pluto TV
-https://jmp2.uk/plu-60812fc8539963000707d1e1.m3u8
-
-#EXTINF:-1 tvg-id="CineRetrobyPlutoTV.de@FR" tvg-logo="https://images.pluto.tv/channels/5f8ed168f72fcd0007e56269/colorLogoPNG_1751272859383.png" group-title="Movies",Ciné Rétro by Pluto TV
-https://jmp2.uk/plu-5f8ed168f72fcd0007e56269.m3u8
-
-#EXTINF:-1 tvg-id="CineSciFibyPlutoTV.de@FR" tvg-logo="https://images.pluto.tv/channels/60c34592c911890007f29a73/colorLogoPNG.png" group-title="Movies",Ciné Sci-Fi by Pluto TV
-https://jmp2.uk/plu-60c34592c911890007f29a73.m3u8
-
-#EXTINF:-1 tvg-id="CineThrillersbyPlutoTV.de@FR" tvg-logo="https://images.pluto.tv/channels/60c3472a51a2050008dad272/colorLogoPNG_1751272093012.png" group-title="Movies",Ciné Thrillers by Pluto TV
-https://jmp2.uk/plu-60c3472a51a2050008dad272.m3u8
-
-#EXTINF:-1 tvg-id="CineWesternbyPlutoTV.de@FR" tvg-logo="https://images.pluto.tv/channels/65cca3e2ec452d0008af3a65/colorLogoPNG_1751272826143.png" group-title="Movies",Ciné Western by Pluto TV
-https://jmp2.uk/plu-65cca3e2ec452d0008af3a65.m3u8
-
 #EXTINF:-1 tvg-id="ClassicMoviesChannel.us@SD" tvg-logo="https://i.imgur.com/pQJxov2.png" group-title="Movies",Classic Movies Channel
 https://jmp2.uk/plu-561c5b0dada51f8004c4d855.m3u8
 
 #EXTINF:-1 tvg-id="FilmRiseWestern.us@SD" tvg-logo="https://i.imgur.com/8j2npVc.png" group-title="Movies",FilmRise Westerns (720p)
 https://dz05z8iljgvbe.cloudfront.net/master.m3u8
-
-#EXTINF:-1 tvg-id="FrightFlix.us@SD" tvg-logo="https://i.imgur.com/rgNQYAl.png" group-title="Movies",FrightFlix (720p)
-https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2229
 
 #EXTINF:-1 tvg-id="FXMovieChannel.us@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/FXM_Logo.svg/960px-FXM_Logo.svg.png" group-title="Movies",FX Movie Channel HD (1080p)
 https://sra72yz.s.gy/FX_MOVIE_CHANNEL_US.m3u8
@@ -375,50 +345,9 @@ https://shd-amg-fast.edgenextcdn.net/tx011/playlist.m3u8
 #EXTINF:-1 tvg-id="MoviesThriller.sa@SD" tvg-logo="https://i.imgur.com/JWihdcl.png" group-title="Movies",Movies Thriller (1080p)
 https://shd-amg-fast.edgenextcdn.net/tx012/playlist.m3u8
 
-#EXTINF:-1 tvg-id="MovieSphere.us@CA" tvg-logo="https://i.imgur.com/h1ejU90.png" group-title="Movies",MovieSphere by Lionsgate
-https://jmp2.uk/plu-64a3d96f060e830008af6745.m3u8
-
 #EXTINF:-1 tvg-id="MyTimeMovieNetwork.uk@SD" tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="Movies",MyTime Movie Network (1080p)
 https://appletree-mytimeuk-rakuten.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="OuterSphere.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/f162df8b-6532-43fe-9202-83a658090651/OuterSphere_1500x1000_Logo_Dark_-_Chris_Connors__1_.png" group-title="Movies;Series",OuterSphere (1080p)
 https://d3o593mz1glx8d.cloudfront.net/OuterSphere_US.m3u8
 
-#EXTINF:-1 tvg-id="ParamountMovieChannel.us@SD" tvg-logo="https://i.imgur.com/sj5h9bl.png" group-title="Movies",Paramount Movie Channel
-https://jmp2.uk/plu-5cb0cae7a461406ffe3f5213.m3u8
-
-#EXTINF:-1 tvg-id="PlutoTV80sAction.de@GB" tvg-logo="https://images.pluto.tv/channels/66d717d2abec540008ba7ec4/colorLogoPNG_1731066705631.png" group-title="Movies;Series",Pluto TV 80's Action
-https://jmp2.uk/plu-66d717d2abec540008ba7ec4.m3u8
-
-#EXTINF:-1 tvg-id="PlutoTV90sClassics.de@FR" tvg-logo="https://images.pluto.tv/channels/66b4990746762a00084c2f78/colorLogoPNG.png" group-title="Movies;Series",Pluto TV 90's Classics
-https://jmp2.uk/plu-66b4990746762a00084c2f78.m3u8
-
-#EXTINF:-1 tvg-id="PlutoTVActionMovies.us@CA" tvg-logo="https://images.pluto.tv/channels/62ea3c2e4823db00072788ed/colorLogoPNG.png" group-title="Movies",Pluto TV Action Movies
-https://jmp2.uk/plu-62ea3c2e4823db00072788ed.m3u8
-
-#EXTINF:-1 tvg-id="PlutoTVCineClasico.de@ES" tvg-logo="https://images.pluto.tv/channels/61373bb45168fe000773eecd/colorLogoPNG.png" group-title="Movies",Pluto TV Cine Clásico
-https://jmp2.uk/plu-61373bb45168fe000773eecd.m3u8
-
-#EXTINF:-1 tvg-id="PlutoTVCineDrama.de@ES" tvg-logo="https://images.pluto.tv/channels/5f1ac947dcd00d0007937c08/colorLogoPNG.png" group-title="Movies",Pluto TV Cine Drama
-https://jmp2.uk/plu-5f1ac947dcd00d0007937c08.m3u8
-
-#EXTINF:-1 tvg-id="PlutoTVCinemaItaliano.de@IT" tvg-logo="https://images.pluto.tv/channels/608aa7d8359b270007861489/colorLogoPNG.png" group-title="Movies",Pluto TV Cinema Italiano
-https://jmp2.uk/plu-608aa7d8359b270007861489.m3u8
-
-#EXTINF:-1 tvg-id="PlutoTVCinemaOrientale.de@IT" tvg-logo="https://images.pluto.tv/channels/6786235bd648bf0008c2780a/colorLogoPNG.png" group-title="Movies",Pluto TV Cinema Orientale
-https://jmp2.uk/plu-6786235bd648bf0008c2780a.m3u8
-
-#EXTINF:-1 tvg-id="PlutoTVComedyMovies.de@GB" tvg-logo="https://images.pluto.tv/channels/5c363c2411c5ca053f198f97/colorLogoPNG.png" group-title="Comedy;Movies",Pluto TV Comedy Movies
-https://jmp2.uk/plu-5c363c2411c5ca053f198f97.m3u8
-
-#EXTINF:-1 tvg-id="PlutoTVCultFilms.de@GB" tvg-logo="https://images.pluto.tv/channels/5c5c31f2f21b553c1f673fb0/colorLogoPNG.png" group-title="Movies",Pluto TV Cult Films
-https://jmp2.uk/plu-5c5c31f2f21b553c1f673fb0.m3u8
-
-#EXTINF:-1 tvg-id="PlutoTVDramaMovies.us@CA" tvg-logo="https://images.pluto.tv/channels/62bdb0bcd707b9000739d2e5/colorLogoPNG.png" group-title="Movies",Pluto TV Drama Movies
-https://jmp2.uk/plu-62bdb0bcd707b9000739d2e5.m3u8
-
-#EXTINF:-1 tvg-id="PlutoTVFantasyHorror.de@GB" tvg-logo="https://images.pluto.tv/channels/685041d936c9361b1921c26c/colorLogoPNG_1753696741486.png" group-title="Movies",Pluto TV Fantasy & Horror
-https://jmp2.uk/plu-685041d936c9361b1921c26c.m3u8
-
-#EXTINF:-1 tvg-id="PlutoTVFilmCommedia.de@IT" tvg-logo="https://images.pluto.tv/channels/608aa512d67fd900072323db/colorLogoPNG.png" group-title="Movies",Pluto TV Film Commedia
-https://jmp2.uk/plu-608aa512d67fd900072323db.m3u8
