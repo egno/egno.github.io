@@ -1,12 +1,41 @@
 #EXTM3U url-tvg="http://epg.it999.ru/edem.xml.gz"
 
+# ===== Cinema (Soviet Classic) =====
+
+#EXTINF:-1 tvg-id="MosfilmGoldCollection.ru@SD" group-title="Каналы тест",Mosfilm Gold Collection (576p)
+http://hls127.freeott.top:8080/Mosfilm/video.m3u8
+
+#EXTINF:-1 tvg-id="NasheLubimoeKino.ru@SD",Nashe Lubimoe Kino (576p)
+http://hls127.freeott.top:8080/Lubimoe_Kino/video.m3u8
+
+#EXTINF:-1, Кино-1
+http://kino-1.catcast.tv/content/38617/index.m3u8
+
+#EXTINF:-1 tvg-id="Nostalgia.ru@SD",Nostalgia (576p)
+http://hls127.freeott.top:8080/Nostalgiya/video.m3u8
+
+#EXTINF:-1 tvg-id="Retro.ru@SD",Retro (576p)
+http://stream.mcquack.net/191/index.m3u8
+
+#EXTINF:-1 group-title="Кинозалы",Retrovision
+https://lbgo.bozztv.com/07/ushba-rvision/index.m3u8
+
+#EXTINF:-1 group-title="Кинозалы",Retrovision Classic
+https://lbgo.bozztv.com/07/ushba-rvisionclassic/index.m3u8
+
+#EXTINF:-1 group-title="Кинозалы",Retrovision Movies
+https://lbgo.bozztv.com/07/ushba-rvisionmovies/index.m3u8
+
+#EXTINF:-1 group-title="Кинозалы",Retrovision Кинопанорама
+https://lbgo.bozztv.com/07/ushba-rvisionkinopanorama/index.m3u8
+
+#EXTINF:-1 tvg-id="RodnoeKino.ru@SD",Rodnoe Kino (576p)
+http://stream.mcquack.net/242/index.m3u8
+
 # ===== General / Entertainment =====
 
 #EXTINF:-1 tvg-name="City TV Ⓢ" tvg-logo="https://i.imgur.com/BjRTbrU.png" tvg-id="City.bg" group-title="Bulgaria",City TV Ⓢ
 https://tv.city.bg/play/tshls/citytv/index.m3u8
-
-#EXTINF:-1 tvg-id="FOX News Now (720p)",FOX News Now (720p)
-https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Magic TV",Magic TV
 https://bss1.neterra.tv/magictv/stream_0.m3u8
@@ -137,9 +166,6 @@ http://stream.mcquack.net/278/index.m3u8
 #EXTINF:-1 tvg-id="Komediynoe.ru@HD",Komediynoe HD (1080p)
 http://stream.mcquack.net/74/index.m3u8
 
-#EXTINF:-1 tvg-id="MosfilmGoldCollection.ru@SD" group-title="Каналы тест",Mosfilm Gold Collection (576p)
-http://hls127.freeott.top:8080/Mosfilm/video.m3u8
-
 #EXTINF:-1 tvg-id="Muzhskoekino.ru@SD",Muzhskoe kino (576p)
 http://stream.mcquack.net/107/index.m3u8
 
@@ -149,17 +175,11 @@ http://hls127.freeott.top:8080/Nash_kinomir/video.m3u8
 #EXTINF:-1 tvg-id="Nashe.ru@HD" tvg-logo="https://i.imgur.com/KO8dhi9.png" group-title="Movies;Series",Nashe HD (576p)
 http://stream.mcquack.net/217/index.m3u8
 
-#EXTINF:-1 tvg-id="NasheLubimoeKino.ru@SD",Nashe Lubimoe Kino (576p)
-http://hls127.freeott.top:8080/Lubimoe_Kino/video.m3u8
-
 #EXTINF:-1 tvg-id="Nashemuzhskoe.ru@HD" tvg-logo="https://i.imgur.com/QRWKpmb.png" group-title="Movies",Nashe muzhskoe HD (1080p)
 http://stream.mcquack.net/362/index.m3u8
 
 #EXTINF:-1 tvg-id="NasheNovoeKino.ru@SD",Nashe Novoe Kino (1080p)
 http://hls127.freeott.top:8080/Nashe_Novoe_Kino_HD/video.m3u8
-
-#EXTINF:-1 tvg-id="Nostalgia.ru@SD",Nostalgia (576p)
-http://hls127.freeott.top:8080/Nostalgiya/video.m3u8
 
 #EXTINF:-1 tvg-id="Ostrosyuzhetnoye.ru@HD",Ostrosyuzhetnoye HD (1080p)
 http://stream.mcquack.net/214/index.m3u8
@@ -169,24 +189,6 @@ http://stream.mcquack.net/421/index.m3u8
 
 #EXTINF:-1 tvg-id="Priklyucheniya.ru@HD",Priklyucheniya HD (1080p)
 http://stream.mcquack.net/198/index.m3u8
-
-#EXTINF:-1 tvg-id="Retro.ru@SD",Retro (576p)
-http://stream.mcquack.net/191/index.m3u8
-
-#EXTINF:-1 group-title="Кинозалы",Retrovision
-https://lbgo.bozztv.com/07/ushba-rvision/index.m3u8
-
-#EXTINF:-1 group-title="Кинозалы",Retrovision Classic
-https://lbgo.bozztv.com/07/ushba-rvisionclassic/index.m3u8
-
-#EXTINF:-1 group-title="Кинозалы",Retrovision Movies
-https://lbgo.bozztv.com/07/ushba-rvisionmovies/index.m3u8
-
-#EXTINF:-1 group-title="Кинозалы",Retrovision Кинопанорама
-https://lbgo.bozztv.com/07/ushba-rvisionkinopanorama/index.m3u8
-
-#EXTINF:-1 tvg-id="RodnoeKino.ru@SD",Rodnoe Kino (576p)
-http://stream.mcquack.net/242/index.m3u8
 
 #EXTINF:-1 tvg-id="Russkiyroman.ru@SD",Russkiy roman (576p)
 http://stream.mcquack.net/266/index.m3u8
@@ -217,9 +219,6 @@ http://stream.mcquack.net/202/index.m3u8
 
 #EXTINF:-1 tvg-id="vijuPlusSerial.ru@HD",viju+ Serial HD (1080p)
 http://stream.mcquack.net/311/index.m3u8
-
-#EXTINF:-1, Кино-1
-http://kino-1.catcast.tv/content/38617/index.m3u8
 
 #EXTINF:-1 group-title="Кинозалы",Кинозалы 1
 https://lbgo.bozztv.com/07/ushba82/index.m3u8
@@ -295,6 +294,20 @@ http://stream.mcquack.net/446/index.m3u8
 #EXTINF:-1 tvg-id="NasheLubimoeKinoUkraine.ua@SD",Nashe Lubimoe Kino Ukraine (1080p)
 http://stream.mcquack.net/456/index.m3u8
 
+# ===== Cinema (Bulgarian) =====
+
+#EXTINF:-1 tvg-id="AMCEurope.uk@Bulgary" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Bulgaria",AMC Europe Bulgary
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+http://212.70.131.37:8000/play/a05k
+
+#EXTINF:-1 tvg-id="MovieStar.bg@SD" tvg-logo="https://i.imgur.com/DdZH49P.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Bulgaria",Movie Star (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://shift03.isp.bg/MovieStar/index.m3u8
+
+#EXTINF:-1 tvg-id="cinebox.bg@SD" tvg-logo="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Bulgaria",cine.box
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+http://212.70.131.37:8000/play/a08b
+
 # ===== Cinema (International) =====
 
 #EXTINF:-1 tvg-id="24HourFreeMovies.us@SD" tvg-logo="https://i.imgur.com/iSVnzR1.png" group-title="Movies",24 Hour Free Movies (720p)
@@ -350,4 +363,3 @@ https://appletree-mytimeuk-rakuten.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="OuterSphere.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/f162df8b-6532-43fe-9202-83a658090651/OuterSphere_1500x1000_Logo_Dark_-_Chris_Connors__1_.png" group-title="Movies;Series",OuterSphere (1080p)
 https://d3o593mz1glx8d.cloudfront.net/OuterSphere_US.m3u8
-
